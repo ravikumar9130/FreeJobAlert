@@ -1,3 +1,19 @@
-<h1><%= message %></h1>
-<h2><%= error.status %></h2>
-<pre><%= error.stack %></pre>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('./partials/head.ejs'); %>
+    <title>error</title>
+</head>
+
+<body>
+    <%- include('./partials/header.ejs'); %>
+    <div class="alert alert-danger" role="alert">
+        <h2><%= error.status %></h2>
+        <%= message %>
+    </div>
+    <div class="alert alert-info" role="alert">
+        Go to <a href="/" style="text-decoration: none;">Home</a>
+      </div>
+    <!-- <pre><%= error.stack %></pre> -->
+</body>
