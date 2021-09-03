@@ -8,6 +8,14 @@
   
   
   <%- include('./partials/header.ejs'); %>
-  <h1>Free Job Alert</h1>
+  
+  <% for(var i = 0; i < newsDatas.length; i++) {%>
+    <li >
+      
+      <span><%= newsDatas[i].Tittle %></span>
+    </li>
+  <% } %>
+  <h1>Free Job Alert </h1>
+  <p>home page will be load soon :)</p>
 </body>
 </html>

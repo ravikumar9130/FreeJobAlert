@@ -6,9 +6,12 @@ const dbconnection = async () => {
     
   try {
    
-    await mongoose.connect(process.env.Mango_URL, { useUnifiedTopology: true, useNewUrlParser: true },
+      await mongoose.connect(process.env.Mango_URL, { useUnifiedTopology: true, useNewUrlParser: true },
       (err) => {
-        if (!err) { console.log("db connected sucesfully")}
+        if (!err) {
+          console.log("db connected sucesfully")
+         
+        }
        })
         
     
