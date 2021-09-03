@@ -1,11 +1,14 @@
 var express = require('express');
 var router = express.Router();
+const newsController = require("../controller/newsController")
+
+
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
-// all india jobs/central jobs
+
+router.get('/', newsController);
+// all india jobs
+
 router.get('/central-jobs', function(req, res, next) {
   res.render('central-jobs');
 })
