@@ -1,6 +1,6 @@
 const newsData = [
   {
-    Tittle:"NPCIL Trade Apprentice Online Form 2021",
+    Title:"NPCIL Trade Apprentice Online Form 2021",
     Postdate: "25-08-2021",
     // LatestUpdate: String,
     TotalVacancy: 107,
@@ -35,7 +35,7 @@ const newsData = [
    
 },
   {
-    Tittle:"South Indian Bank Probationary Officer Online Form 2021",
+    Title:"South Indian Bank Probationary Officer Online Form 2021",
     Postdate: "25-08-2021",
     // LatestUpdate: String,
     TotalVacancy: 51,
@@ -70,7 +70,7 @@ const newsData = [
    
 },
   {
-    Tittle:"RRB NTPC Update Bank Account Details for Fee Refund",
+    Title:"RRB NTPC Update Bank Account Details for Fee Refund",
     Postdate: " 19-02-2019",
     // LatestUpdate: String,
     TotalVacancy:35280,
@@ -103,7 +103,7 @@ const newsData = [
    
 },
   {
-    Tittle:"GATE Online Form 2021",
+    Title:"GATE Online Form 2021",
     Postdate: "14-08-2021",
     // LatestUpdate: String,
     TotalVacancy:35280,
@@ -137,7 +137,7 @@ const newsData = [
 },
 
   {
-    Tittle:"Oil India Limited Various Vacancy Online Form 2021",
+    Title:"Oil India Limited Various Vacancy Online Form 2021",
     Postdate: " 25-08-2021",
     // LatestUpdate: String,
     TotalVacancy:535,
@@ -171,7 +171,7 @@ const newsData = [
 },
   
   {
-    Tittle:"Western Coalfields Ltd ITI Apprentice Online Form 202",
+    Title:"Western Coalfields Ltd ITI Apprentice Online Form 202",
     Postdate: " 31-08-2021",
     // LatestUpdate: String,
     TotalVacancy: 965,
