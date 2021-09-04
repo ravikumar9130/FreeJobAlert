@@ -5,18 +5,23 @@
   <title>Free Job Alert</title>
 </head>
 <body>
-  
   <%- include('./partials/header.ejs'); %>
-  
+  <h1>Free Job Alert </h1>
+  <p>home page will be load soon :)</p>
   <% for(var i = 0; i < newsDatas.length; i++) {%>
+<<<<<<< HEAD
     
       
       <h3> <a href="job-details/<%= newsDatas[i]. _id %>"> <%= newsDatas[i].Title %></a>
        </h3>
       <span><%= newsDatas[i]. _id %>......</span>
     
+=======
+    <li >
+      <span><%= newsDatas[i].Title %></span>
+    </li>
+>>>>>>> 53df409351072908d941a7bd8312bfaf16656bc8
   <% } %>
-  <h1>Free Job Alert </h1>
-  <p>home page will be load soon :)</p>
+  
 </body>
 </html>
