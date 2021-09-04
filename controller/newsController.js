@@ -18,7 +18,7 @@ const getAllnewsDatas = async (req, res) => {
 const getJobDetailsById = async (req, res) => {
     try {
         const news = await data.findById(req.params.id);
-        console.log(news);
+        // console.log(news);
         await res.render('job-details',{news})
     }
     catch (err) {
