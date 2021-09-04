@@ -8,7 +8,6 @@ const newsController = require("../controller/newsController")
 
 router.get('/', newsController);
 // all india jobs
-
 router.get('/central-jobs', function(req, res, next) {
   res.render('central-jobs');
 })
