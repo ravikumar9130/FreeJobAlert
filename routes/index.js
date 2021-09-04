@@ -1,12 +1,12 @@
 var express = require('express');
 var router = express.Router();
-const newsController = require("../controller/newsController")
+const{ getAllnewsDatas, getJobDetailsById}= require("../controller/newsController")
 
 
 
 /* GET home page. */
 
-router.get('/', newsController);
+router.get('/', getAllnewsDatas);
 // all india jobs
 
 router.get('/central-jobs', function(req, res, next) {
@@ -33,9 +33,7 @@ router.get('/police-defence-jobs', function(req, res, next) {
   res.render('police-defence-jobs');
 })
 // job-details
-router.get('/job-details', function(req, res, next) {
-  res.render('job-details');
-});
+router.get('/job-details/:id', getJobDetailsById );
 
 
 

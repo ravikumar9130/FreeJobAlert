@@ -9,10 +9,12 @@
   <%- include('./partials/header.ejs'); %>
   
   <% for(var i = 0; i < newsDatas.length; i++) {%>
-    <li >
+    
       
-      <span><%= newsDatas[i].Title %></span>
-    </li>
+      <h3> <a href="job-details/<%= newsDatas[i]. _id %>"> <%= newsDatas[i].Title %></a>
+       </h3>
+      <span><%= newsDatas[i]. _id %>......</span>
+    
   <% } %>
   <h1>Free Job Alert </h1>
   <p>home page will be load soon :)</p>
