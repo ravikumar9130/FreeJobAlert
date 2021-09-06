@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-const{ getAllnewsDatas, getJobDetailsById}= require("../controller/newsController")
+const{ getAllnewsDatas, getJobDetailsById,getJobDetailsByCatagory} = require("../controller/newsController")
 
 
 
@@ -28,8 +28,8 @@ router.get('/railway-jobs', function(req, res, next) {
   res.render('railway-jobs');
 })
 // police-defence-jobs
-router.get('/police-defence-jobs', function(req, res, next) {
-  res.render('police-defence-jobs');
+router.get('/police-defence-jobs',function(req, res, next) {
+  res.render('railway-jobs');
 })
 // job-details
 router.get('/job-details/:id', getJobDetailsById );

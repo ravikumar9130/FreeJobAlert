@@ -15,6 +15,7 @@ const getAllnewsDatas = async (req, res) => {
    
 
 }
+// to get 
 const getJobDetailsById = async (req, res) => {
     try {
         const news = await data.findById(req.params.id);
@@ -27,5 +28,5 @@ const getJobDetailsById = async (req, res) => {
 }
 
 
-module.exports = { getAllnewsDatas, getJobDetailsById} ;
+module.exports = { getAllnewsDatas, getJobDetailsById};
 

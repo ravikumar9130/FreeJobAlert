@@ -1,6 +1,6 @@
 const newsData = [
   {
-    Title:"NPCIL Trade Apprentice Online Form 2021",
+    Title:"NPCIL Trade Apprentice 2021",
     Postdate: "25-08-2021",
     // LatestUpdate: String,
     TotalVacancy: 107,
@@ -10,6 +10,7 @@ const newsData = [
         AdvtNo: "Advt No: 01/2021",
         VacancyName:"Trade Apprentice Vacancy 2021",
     },
+    Category: "latest",
     // ApplicationFee: {
     //     fees:String
     // },
@@ -35,7 +36,7 @@ const newsData = [
    
 },
   {
-    Title:"South Indian Bank Probationary Officer Online Form 2021",
+    Title:"South Indian Bank Probationary Officer 2021",
     Postdate: "25-08-2021",
     // LatestUpdate: String,
     TotalVacancy: 51,
@@ -45,6 +46,7 @@ const newsData = [
         AdvtNo: "Advt No: 01/2021",
         VacancyName:"Probationary Officer Vacancy 2021",
     },
+    Category: "latest",
     // ApplicationFee: {
     //     fees:String
     // },
@@ -70,7 +72,7 @@ const newsData = [
    
 },
   {
-    Title:"RRB NTPC Update Bank Account Details for Fee Refund",
+    Title:"RRB NTPC 2021",
     Postdate: " 19-02-2019",
     // LatestUpdate: String,
     TotalVacancy:35280,
@@ -80,7 +82,7 @@ const newsData = [
         AdvtNo: "Advt No: 01/2019",
         VacancyName:"Various Vacancies 2019",
     },
-    
+    Category: "latest",
     ImportantDates: {
       DatesInfo: [
           
@@ -113,7 +115,7 @@ const newsData = [
         AdvtNo: "Advt No: 01/2019",
         VacancyName:"Graduate Aptitude Test in Engineering 2022",
     },
-    
+    Category: "latest",
     ImportantDates: {
       DatesInfo: [
           
@@ -137,7 +139,7 @@ const newsData = [
 },
 
   {
-    Title:"Oil India Limited Various Vacancy Online Form 2021",
+    Title:"Oil India Limited Various Vacancy 2021",
     Postdate: " 25-08-2021",
     // LatestUpdate: String,
     TotalVacancy:535,
@@ -147,7 +149,7 @@ const newsData = [
         AdvtNo: "Advt No. 06/2021",
         VacancyName:"Various Vacancy 2021",
     },
-    
+    Category: "latest",
     ImportantDates: {
       DatesInfo: [
           
@@ -171,7 +173,7 @@ const newsData = [
 },
   
   {
-    Title:"Western Coalfields Ltd ITI Apprentice Online Form 202",
+    Title:"Western Coalfields Ltd ITI Apprentice 2021",
     Postdate: " 31-08-2021",
     // LatestUpdate: String,
     TotalVacancy: 965,
@@ -181,7 +183,7 @@ const newsData = [
         AdvtNo: "Advt No. 06/2021",
         VacancyName:"ITI Apprentice Vacancy 2021",
     },
-    
+    Category: "latest",
     ImportantDates: {
       DatesInfo: [
           
