@@ -6,6 +6,7 @@ const newsSchema = new mongoose.Schema({
     LatestUpdate: String,
     TotalVacancy: String,
     BriefInformation: String,
+    Category: String,
     CompanyDetails: {
         CompanyName: String,
         AdvtNo: String,

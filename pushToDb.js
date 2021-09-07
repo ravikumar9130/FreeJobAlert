@@ -10,7 +10,7 @@ mangoConnect()
 const importData = async () => {
     try {
         
-        // await dataSchema.deleteMany({});
+        await dataSchema.deleteMany({});
         await dataSchema.insertMany(news)
         console.log(" News info is exportes sucessfully :) ")
         
