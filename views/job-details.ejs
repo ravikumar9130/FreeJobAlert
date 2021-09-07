@@ -39,13 +39,13 @@
                     </span>
                         </div>
                         <div class="alert " role="alert">
-                           <b> Post Date :</b> <span class="text-dark  px-3"> 30-01-2019</span>
+                           <b> Post Date :</b> <span class="text-dark  px-3"><%- news.Postdate %></span>
                         </div>
                         <div class="alert " role="alert">
-                         <b>   Latest Update :</b><span class="text-dark px-3">23-08-2021</span>
+                         <b>   Latest Update :</b><span class="text-dark px-3"><%- news.Postdate %></span>
                         </div>
                         <div class="alert " role="alert">
-                          <b>  Total Vacancy :</b><span class="text-dark px-3"> 67</span>
+                          <b>  Total Vacancy :</b><span class="text-dark px-3"><%- news.TotalVacancy %></span>
                         </div>
                         <div class="alert " role="alert">
                             <h4 class="alert-heading">Brief Information :</h4>
@@ -72,10 +72,13 @@
                                <b> Application Fee</b>
                             </div>
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item">For General/ Unreserved: Rs. 1000/-</li>
-                                <li class="list-group-item">For Other Backward Classes (OBC) – (NCL)/ Economically
-                                    Weaker Section (EWS): Rs. 500/-</li>
-                                <li class="list-group-item">For SC/ ST/ PwD/ Transgender: Rs. 250/-</li>
+                                <% if(news.ApplicationFee.fees.length != 0) {%>
+                                <% for(var i = 0; i < news.ApplicationFee.fees.length; i++) {%>
+                                <li class="list-group-item"><%- news.ApplicationFee.fees[i] %></li>
+                                <% } %>
+                                <% } else { %>
+                                    <li class="list-group-item">No Application fee</li>
+                                <% } %>
                             </ul>
                         </div>
                    

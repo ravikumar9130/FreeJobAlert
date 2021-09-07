@@ -11,9 +11,12 @@ const newsData = [
         VacancyName:"Trade Apprentice Vacancy 2021",
     },
     Category: "latest",
-    // ApplicationFee: {
-    //     fees:String
-    // },
+    ApplicationFee: {
+        fees: ["For SC/ ST/ PwBD: Rs. 100/- (Intimation charge only)"
+        ,"For all candidates Other than SC/ST/ PwBD: Rs.750/- (Application fee including intimation charges)"],
+        paymentMode: "Debit Cards (RuPay/ Visa/ Master Card/ Maestro), Credit Cards, Internet Banking, IMPS, Cash Cards/ Mobile Wallets",
+
+    },
     ImportantDates: {
       DatesInfo: [
           
@@ -47,9 +50,11 @@ const newsData = [
         VacancyName:"Probationary Officer Vacancy 2021",
     },
     Category: "latest",
-    // ApplicationFee: {
-    //     fees:String
-    // },
+    ApplicationFee: {
+      fees: ["Rs.800/- (excluding GST and other applicable charges)"],
+      paymentMode: "Through Online",
+
+  },
     ImportantDates: {
       DatesInfo: [
           
@@ -83,6 +88,12 @@ const newsData = [
         VacancyName:"Various Vacancies 2019",
     },
     Category: "latest",
+    ApplicationFee: {
+      fees: ["For Others: Rs.500/-",
+      "For SC/ ST/ PwD/ Ex-S/ Women/ Transgender/ EBC/ Minorities: Rs.250/-"],
+      paymentMode: "Online/ Offline",
+
+  },
     ImportantDates: {
       DatesInfo: [
           
@@ -116,6 +127,12 @@ const newsData = [
         VacancyName:"Graduate Aptitude Test in Engineering 2022",
     },
     Category: "latest",
+    ApplicationFee: {
+      fees: ["All Other Categories Rs. 1500/-",
+      "SC/ ST/ PwD/ Female: Rs. 750/"],
+      paymentMode: "Debit/ Credit card/ Net Banking",
+
+  },
     ImportantDates: {
       DatesInfo: [
           
@@ -150,6 +167,12 @@ const newsData = [
         VacancyName:"Various Vacancy 2021",
     },
     Category: "latest",
+    ApplicationFee: {
+      fees: ["For General/ OBC: Rs.200/- ",
+      "For SC/ ST/ EWS/ PWBD/ Ex-Servicemen Candidates: NIL"],
+      paymentMode: "Online Payment Gateway",
+
+  },
     ImportantDates: {
       DatesInfo: [
           
@@ -204,6 +227,45 @@ const newsData = [
     }, Qualification: "Candidates should possess 10th Class, 10+2",
     
    
+},
+{
+  Title:"UPSC CGS & Geologist Recruitment 2021",
+  Postdate: "07-10-2020",
+  // LatestUpdate: String,
+  TotalVacancy: 40,
+  BriefInformation: "Union Public Service Commission (UPSC) has given a notification for the recruitment of Combined Geo-Scientist Examination 2021. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the Notification & Apply Online",
+  CompanyDetails: {
+      CompanyName:"Union Public Service Commission (UPSC)" ,
+      AdvtNo: "Advt No. 01/2021",
+      VacancyName:"Combined Geo-scientist Exam 2020",
+  },
+  Category: "central jobs",
+  ApplicationFee: {
+    fees: ["Candidates should pay Rs. 200/- ",
+    "Female/ SC/ST/ Persons with Benchmark Disability Candidates are exempted from payment."],
+    paymentMode: "Pay the fee by remitting the money in any Branch of Visa/ Master/ RuPay Credit/ Debit Card or by using Internet Banking of SBI.",
+
+},
+  ImportantDates: {
+    DatesInfo: [
+      "Starting Date to Apply Online: 07-10-2020",
+"Last Date for Receipt of Applications: 27-10-2020 till 18.00 Hours",
+"Online Applications can be Withdrawn: From 04 to 10-11-2020 till 18.00 Hours",
+"Date for Preliminary Exam: 21-02-2021",
+"Date for Main Exam: 17 & 18-07-2021",
+"Date for Download Mains Exam Admit Card: 03 Weeks Before",
+      ]
+  },
+  AgeLimit: {
+    LimitData: [ 
+      "Minimum: 21 Years",
+      "Maximum: 32 Years",
+      "Age relaxation is applicable as per rules",
+      "For More information regarding Age please refer the notification."
+      ]
+  }, Qualification: "Candidates should possess 10th Class, 10+2",
+  
+ 
 },
   
   ];
