@@ -7,6 +7,7 @@
 
 <body>
     <%- include('./partials/header.ejs'); %>
+  
         <div class="container-fluid  bg-dark  py-3">
             <div class="row">
                 <div class="col-12 text-center text-light">
@@ -16,139 +17,39 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="container my-3">
-        <div class="row">
-            <div class="col-12">
-
-                <div class="alert alert-primary text-center" role="alert">
-                    Name of the Post :<span class="text-dark px-3">OPSC Asst Conservator & Forest Ranger
-                        DV & Viva Voce Dates Announced</span>
-                </div>
-                <div class="alert alert-danger text-center " role="alert">
-                    Post Date :<span class="text-dark  px-3"> 30-01-2019</span>
-                </div>
-                <div class="alert alert-primary text-center" role="alert">
-                    Latest Update :<span class="text-dark px-3">23-08-2021</span>
-                </div>
-                <div class="alert alert-danger text-center" role="alert">
-                    Total Vacancy :<span class="text-dark px-3"> 67</span>
-                </div>
-                <div class="alert alert-info" role="alert">
-                    <h4 class="alert-heading">Brief Information :</h4>
-                    <p>Odisha Public Service Commission (OPSC) has given an employment notification for the recruitment
-                        of Assistant Conservator of Forests & Forest Ranger vacancies in Group A & B. Those Candidates
-                        who are interested in the vacancy details & completed all eligibility criteria can read the
-                        Notification & Apply Online.</p>
-
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container mb-4">
-        <div class="row">
-            <div class="col-12">
-                <div class="card">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="alert alert-primary text-center" role="alert">
-                                <h4>Odisha Public Service Commission (OPSC)</h4>
-
-                                <p>Advt No. 22/2018-19</p>
-
-                                <h5>Asst Conservator & Forest Ranger Vacancies 2019</h5>
-
-
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="card">
-                                <div class="card-header text-center">
-                                    Application Fee
-                                </div>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">For General/ Unreserved: Rs. 1000/-</li>
-                                    <li class="list-group-item">For Other Backward Classes (OBC) – (NCL)/ Economically
-                                        Weaker Section (EWS): Rs. 500/-</li>
-                                    <li class="list-group-item">For SC/ ST/ PwD/ Transgender: Rs. 250/-</li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="list-group-item"><div class="card">
-                            <div class="card-header text-center">
-                                Important Dates
-                            </div>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Starting Date to Apply Online: 15-02-2019</li>
-                                <li class="list-group-item">Closing Date to Apply Online: 14-03-2019 till 11:59 PM</li>
-                                <li class="list-group-item">Last Date for fee payment at any SBI Branch: 19-03-2019</li>
-                                <li class="list-group-item">Date of Written Exam: 14-04-2019 (Changed to July-2019)</li>
-                                <li class="list-group-item">New Dates for Written Exam: 20 to 31-12-2019</li>
-                                <li class="list-group-item">Date of Physical Test: 19 to 28-07-2021</li>
-                            </ul>
-                        </div></li>
-                        <li class="list-group-item"><div class="card">
-                            <div class="card-header text-center ">
-                                Age Limit (as on 01-01-2019)
-                            </div>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Minimum Age: 21 Years</li>
-                                <li class="list-group-item">Maximum Age: 32 Years</li>
-                                <li class="list-group-item">Age relaxation is applicable for SC/ ST/ SEBC/ PH candidates as per rules</li>
-                                
-                            </ul>
-                        </div></li>
-                        <li class="list-group-item"> <div class="alert alert-primary text-center" role="alert">
-                            <h4 class="text-center">Qualification</h4>
-
-                            Candidates who have secured at least 55% marks (without rounding off) in Master’s Degree or equivalent examination from universities/institutions recognized by UGC.
-
-
-                        </div>
-                    </li>
-                          
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-//editing -->
-
-        <div class="container my-5">
+  
+<div class="container-fluid bg-light py-5">
+        <div class="container  ">
             <div class="row">
-                <div class="col-md-8 px-3">
-                    <div class="card">
+                <div class="col-md-8 px-3 ">
+                    <div class="card shadow">
                         <div class="alert text-center border " role="alert">
-                            <h4>Odisha Public Service Commission (OPSC)</h4>
+                           
+                            <h4> <%- news.CompanyDetails.CompanyName %></h4>
 
-                            <p>Advt No. 22/2018-19</p>
+                            <p> <%- news.CompanyDetails.AdvtNo %></p>
 
-                            <h5>Asst Conservator & Forest Ranger Vacancies 2019</h5>
+                            <h5> <%- news.CompanyDetails.VacancyName %></h5>
 
 
                         </div>
                         <div class="alert " role="alert">
-                            Name of the Post :<span class="text-dark px-3">OPSC Asst Conservator & Forest Ranger
-                                DV & Viva Voce Dates Announced</span>
+                     <b>    Name of the Post :</b>   <span class="text-dark px-3">
+                        <%- news.BriefInformation %>
+                    </span>
                         </div>
                         <div class="alert " role="alert">
-                            Post Date :<span class="text-dark  px-3"> 30-01-2019</span>
+                           <b> Post Date :</b> <span class="text-dark  px-3"> 30-01-2019</span>
                         </div>
                         <div class="alert " role="alert">
-                            Latest Update :<span class="text-dark px-3">23-08-2021</span>
+                         <b>   Latest Update :</b><span class="text-dark px-3">23-08-2021</span>
                         </div>
                         <div class="alert " role="alert">
-                            Total Vacancy :<span class="text-dark px-3"> 67</span>
+                          <b>  Total Vacancy :</b><span class="text-dark px-3"> 67</span>
                         </div>
                         <div class="alert " role="alert">
                             <h4 class="alert-heading">Brief Information :</h4>
-                            <p>Odisha Public Service Commission (OPSC) has given an employment notification for the
-                                recruitment
-                                of Assistant Conservator of Forests & Forest Ranger vacancies in Group A & B. Those
-                                Candidates
-                                who are interested in the vacancy details & completed all eligibility criteria can read
-                                the
-                                Notification & Apply Online.</p>
+                            <p> <%- news.BriefInformation %></p>
 
 
                         </div>
@@ -156,8 +57,7 @@
                             <div class="alert text-center" role="alert">
                                 <h4 class="text-center">Qualification</h4>
 
-                                Candidates who have secured at least 55% marks (without rounding off) in Master’s Degree
-                                or equivalent examination from universities/institutions recognized by UGC.
+                                <%- news.Qualification %>
 
 
                             </div>
@@ -167,9 +67,9 @@
                 <div class="col-md-4 ">
                     
                    
-                        <div class="card my-3">
-                            <div class="card-header text-center ">
-                                Application Fee
+                        <div class="card mt-3 mb-4">
+                            <div class="card-header text-center bg-dark text-light ">
+                               <b> Application Fee</b>
                             </div>
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item">For General/ Unreserved: Rs. 1000/-</li>
@@ -180,9 +80,9 @@
                         </div>
                    
                     
-                        <div class="card my-3">
-                            <div class="card-header text-center">
-                                Important Dates
+                        <div class="card my-4">
+                            <div class="card-header text-center bg-dark text-light">
+                              <b>  Important Dates</b>
                             </div>
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item">Starting Date to Apply Online: 15-02-2019</li>
@@ -198,9 +98,9 @@
                         </div>
                   
                     
-                        <div class="card my-3">
-                            <div class="card-header text-center ">
-                                Age Limit (as on 01-01-2019)
+                        <div class="card my-4">
+                            <div class="card-header text-center bg-dark text-light  ">
+                               <b> Age Limit (as on 01-01-2019) </b>
                             </div>
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item">Minimum Age: 21 Years</li>
@@ -215,6 +115,7 @@
             </div>
         </div>
         </div>
+    </div>
         <%- include('./partials/footer.ejs'); %>
 </body>
 
