@@ -264,10 +264,208 @@ const newsData = [
       "For More information regarding Age please refer the notification."
       ]
   }, Qualification: "Candidates should possess 10th Class, 10+2",
-  
- 
 },
+{
+  Title:"Oil India Limited Various Vacancy 2021",
+  Postdate: " 25-08-2021",
+  // LatestUpdate: String,
+  TotalVacancy:535,
+  BriefInformation: "Oil India Limited has Published a Notification for the recruitment of Grade III (Electrician, Fitter, Mechanic Motor Vehicle, Machinist, Mechanic Diesel & Other Trade) vacancies. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the Notification & Apply Online.",
+  CompanyDetails: {
+      CompanyName:"Oil India Limited" ,
+      AdvtNo: "Advt No. 06/2021",
+      VacancyName:"Various Vacancy 2021",
+  },
+  Category: "central Jobs",
+  ApplicationFee: {
+    fees: ["For General/ OBC: Rs.200/- ",
+    "For SC/ ST/ EWS/ PWBD/ Ex-Servicemen Candidates: NIL"],
+    paymentMode: "Online Payment Gateway",
+
+},
+  ImportantDates: {
+    DatesInfo: [
+        
+  "Starting Date for Apply Online: 24-08-2021 at 7:00 am",
+  "Last Date for apply Online: 23-09-2021 at 11:59 pm"
   
-  ];
+
+      ]
+  },
+  AgeLimit: {
+    LimitData: [
+        
+  "Minimum Age Limit: 18 Years",
+  "Maximum Age Limit: 30 Years",
+  "Age relaxation is admissible as per rules."
+
+      ]
+  }, Qualification: "Candidates should possess 10th Class, 10+2",
+  
+},
+{
+  Title:"Coal India Limited Management Trainee 2021",
+  Postdate: "10-08-2021",
+  // LatestUpdate: String,
+  TotalVacancy:588,
+  BriefInformation: "Coal India Limited has published a notification for the recruitment of Management Trainee vacancies. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the Notification & Apply Online.",
+  CompanyDetails: {
+      CompanyName:"Coal India Limited" ,
+      AdvtNo: "Advt No. 06/2021",
+      VacancyName:"Management Trainee Vacancy 2021",
+  },
+  Category: "central Jobs",
+  ApplicationFee: {
+    fees: ["For General/ OBC/ EWS: Rs.1180/- (fee Rs 1000+GST 180/-)",
+    "For SC/ST/PWD/ Coal India Ltd Employees: Nil",
+    ],
+    paymentMode: "Online",
+},
+  ImportantDates: {
+    DatesInfo: [
+  "Starting Date for Online Registration of Application & Payment of Fee: 10-08-2021 at 10:00 am",
+  "Last Date for Submission of Applications & Payment of Fee: 09-09-2021 at 11:59 pm"
+      ]
+  },
+  AgeLimit: {
+    LimitData: [
+  "upper Age Limit: 30 Years",
+  "Age relaxation is admissible as per rules."
+      ]
+  }, Qualification: "Candidates who have passed BE/ B.Tech/ B.Sc (Engg.) are eligible",
+  
+},
+{
+  Title:"IMTECH Recruitment 2021",
+  Postdate: "02-08-2021",
+  // LatestUpdate: String,
+  TotalVacancy:10,
+  BriefInformation: "Institute of Microbial Technology (IMTECH) has Published a Notification for the recruitment of Jr Secretariat Asst, Stenographer vacancies. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the Notification & Apply Online.",
+  CompanyDetails: {
+      CompanyName:"Institute of Microbial Technology (IMTECH)" ,
+      AdvtNo: "Advt No: 03/2021",
+      VacancyName:"Jr Secretariat Asst, Jr Stenographer Vacancy 2021",
+  },
+  Category: "central Jobs",
+  ApplicationFee: {
+    fees: ["For Others: Rs.500/-",
+    "For SC/ST/PWD/ Women/ Other Gender/ Ex-Serviceman/ CSIR Employees: Nil",
+    ],
+    paymentMode: "Online",
+},
+  ImportantDates: {
+    DatesInfo: [
+  "Starting Date for Apply Online: 02-08-2021",
+  "Last Date for Apply Online: 15-09-2021 at 17:00 Hrs"
+      ]
+  },
+  AgeLimit: {
+    LimitData: [
+  "For S.No 01: 28 Years",
+  "For S.No 2: 27 Years",
+  "Age relaxation is applicable as per rules."
+    ]
+  }, Qualification: "Candidates should possess 10+2/XII, Computer Knowledge",
+  
+},
+{
+  Title:"Coir Board Recruitment 2021",
+  Postdate: "24-07-2021",
+  // LatestUpdate: String,
+  TotalVacancy:36,
+  BriefInformation: "Coir Board, kochi has published a notification for the recruitment of Senior Scientific Officer, Scientific Assistant, Showroom Manager, Assistant & Other vacancies. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the Notification & Apply Online.",
+  CompanyDetails: {
+      CompanyName:"Coir Board" ,
+      AdvtNo: "None",
+      VacancyName:"Various Vacancy 2021",
+  },
+  Category: "central Jobs",
+  ApplicationFee: {
+    fees: ["For S.No 01, 02: Rs.500/-",
+    "For S.No 03 to 05: Rs.400/-",
+    "For S.No 06 to 13: Rs.300/-",
+    "For SC/ST/PWD/ Ex-Serviceman/ Women candidates: Nil",
+    ],
+    paymentMode: "State Bank Collect",
+},
+  ImportantDates: {
+    DatesInfo: [
+  "Last Date for Apply Online: 15-08-2021 at 18:00 Hrs"
+      ]
+  },
+  AgeLimit: {
+    LimitData: [
+  "Minimum Age Limit: 18 Years",
+  "Upper Age Limit for S.No 01, 04, 13: 35 Years",
+  "Upper Age Limit for S.No 02: 40 Years",
+  "Upper Age Limit for S.No 03, 07, 08, 09, 11, 12: 30 Years",
+  "Upper Age Limit for S.No 05: 28 Years",
+  "Upper Age Limit for S.No 06: 27 Years",
+  "Upper Age Limit for S.No 10: 25 Years",
+  "Age relaxation is admissible as per rules.",
+    ]
+  }, Qualification: "Candidates should possess Any Degree",
+  
+},
+{
+  Title:"IMTECH Recruitment 2021",
+  Postdate: "02-08-2021",
+  // LatestUpdate: String,
+  TotalVacancy:10,
+  BriefInformation: "Institute of Microbial Technology (IMTECH) has Published a Notification for the recruitment of Jr Secretariat Asst, Stenographer vacancies. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the Notification & Apply Online.",
+  CompanyDetails: {
+      CompanyName:"Institute of Microbial Technology (IMTECH)" ,
+      AdvtNo: "Advt No: 03/2021",
+      VacancyName:"Jr Secretariat Asst, Jr Stenographer Vacancy 2021",
+  },
+  Category: "central Jobs",
+  ApplicationFee: {
+    fees: ["For Others: Rs.500/-",
+    "For SC/ST/PWD/ Women/ Other Gender/ Ex-Serviceman/ CSIR Employees: Nil",
+    ],
+    paymentMode: "Online",
+},
+  ImportantDates: {
+    DatesInfo: [
+  "Starting Date for Apply Online: 02-08-2021",
+  "Last Date for Apply Online: 15-09-2021 at 17:00 Hrs"
+      ]
+  },
+  AgeLimit: {
+    LimitData: [
+  "For S.No 01: 28 Years",
+  "For S.No 2: 27 Years",
+  "Age relaxation is applicable as per rules."
+    ]
+  }, Qualification: "Candidates should possess 10+2/XII, Computer Knowledge",
+  
+},
+{
+  Title:"CMERI - CENTRAL MECHANICAL ENGINEERING RESEARCH INSTITUTE Recruitment 2021",
+  Postdate: "29-09-2021",
+  // LatestUpdate: String,
+  TotalVacancy:15,
+  BriefInformation: "CMERI - CENTRAL MECHANICAL ENGINEERING RESEARCH INSTITUTE has published a notification for the recruitment of Senior Scientific Officer, Scientific Assistant, Showroom Manager, Assistant & Other vacancies. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the Notification & Apply Online.",
+  CompanyDetails: {
+      CompanyName:"CMERI - CENTRAL MECHANICAL ENGINEERING RESEARCH INSTITUTE" ,
+      AdvtNo: "03/2021",
+      VacancyName:"Scientist, Senior Scientist",
+  },
+  Category: "central Jobs",
+  ImportantDates: {
+    DatesInfo: [
+  "Last Date for submission of online application: 20.09.2021 up to 5:00 PM",
+  "Last Date for Receipt of the hard copy of online application: 30.09.2021 up to 5:30 PM"
+      ]
+  },
+  AgeLimit: {
+    LimitData: [
+  "Minimum Age Limit: 32 years",
+  "Upper Age Limit: 37 Years",
+  "Age relaxation is admissible as per rules.",
+    ]
+  }, Qualification: "Candidates should possess B.E/B. Tech or M.E/M Tech Branch Depends on the Role",
+},  
+];
   
   module.exports = newsData;
