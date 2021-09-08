@@ -467,6 +467,142 @@ const newsData = [
     ]
   }, Qualification: "Candidates should possess B.E/B. Tech or M.E/M Tech Branch Depends on the Role",
 },  
+ // <<<<<<<<<<>>>>>>>>>>>next item
+{
+  Title:"AP Mahesh Cooperative Urban Bank Ltd",
+  Postdate: "08/09/2021",
+ 
+  TotalVacancy:109,
+  BriefInformation: "CMERI - CENTRAL MECHANICAL ENGINEERING RESEARCH INSTITUTE has published a notification for the recruitment of Senior Scientific Officer, Scientific Assistant, Showroom Manager, Assistant & Other vacancies. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the Notification & Apply Online.",
+  CompanyDetails: {
+      CompanyName:"General Manager, Dy General Manager, Company Secretary & Other – 109 Posts" ,
+      AdvtNo: "03/2021",
+      VacancyName:"Manager, Dy General Manager, Company Secretary & Other",
+  },
+  Category: "Bank Jobs",
+  ImportantDates: {
+    DatesInfo: [
+  "Last Date for submission of online application: 20.09.2021 up to 5:00 PM",
+  "Last Date for Receipt of the hard copy of online application: 30.09.2021 up to 5:30 PM"
+      ]
+  },
+  AgeLimit: {
+    LimitData: [
+  "Minimum Age Limit: 32 years",
+  "Upper Age Limit: 37 Years",
+  "Age relaxation is admissible as per rules.",
+    ]
+  }, Qualification: "Any Degree/ Any PG/ CFA/ ICWA/ CA/ CS/ CAIIB/ LLB",
+},  
+ // <<<<<<<<<<>>>>>>>>>>>next item
+{
+  Title:"Bank of Maharashtra",
+  Postdate: "01/09/2021",
+ 
+  TotalVacancy:190,
+  BriefInformation: "Bank of Maharashtra, Pune has published notification for the recruitment of Specialist Officer in Scale I & II vacancy. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the Notification & Apply Online.",
+  CompanyDetails: {
+      CompanyName:"Bank of Maharashtra" ,
+      AdvtNo: "03/2021",
+      VacancyName:"Specialist Officer Vacancy 2021",
+  },
+  Category: "Bank Jobs",
+  ImportantDates: {
+    DatesInfo: [
+  "Starting Date for Apply Online & Payment of Fee: 01-09-2021",
+      "Last Date to Apply Online & Payment of Fee: 19-09-2021",
+  "Last Date for Editing Application Details: 19-09-2021"
+      ]
+  },
+  AgeLimit: {
+    LimitData: [
+  "For Sl No 1: 35 Years",
+  "For Sl No 2: 32 Years",
+  "Age relaxation is admissible for SC/ST/OBC/ PH.",
+    ]
+  }, Qualification: "	Degree, PG Degree/ Diploma (Relevant Disciplines)",
+},  
+ // <<<<<<<<<<>>>>>>>>>>>next item
+{
+  Title:"South Indian Bank Ltd",
+  Postdate: "01/09/2021",
+ 
+  TotalVacancy:109,
+  BriefInformation: "CMERI - CENTRAL MECHANICAL ENGINEERING RESEARCH INSTITUTE has published a notification for the recruitment of Senior Scientific Officer, Scientific Assistant.",
+  CompanyDetails: {
+      CompanyName:"Probationary Officer" ,
+      AdvtNo: "03/2021",
+      VacancyName:"Probationary Officer",
+  },
+  Category: "Bank Jobs",
+  ImportantDates: {
+    DatesInfo: [
+  "Last Date for submission of online application: 20.09.2021 up to 5:00 PM",
+  "Last Date for Receipt of the hard copy of online application: 30.09.2021 up to 5:30 PM"
+      ]
+  },
+  AgeLimit: {
+    LimitData: [
+  "Minimum Age Limit: 32 years",
+  "Upper Age Limit: 37 Years",
+  "Age relaxation is admissible as per rules.",
+    ]
+  }, Qualification: "Any	Degree",
+},  
+ // <<<<<<<<<<>>>>>>>>>>>next item
+{
+  Title:"Bank of India",
+  Postdate: "27/08/2021",
+ 
+  TotalVacancy:3,
+  BriefInformation: "CMERI - CENTRAL MECHANICAL ENGINEERING RESEARCH INSTITUTE has published a notification for the recruitment of Senior Scientific Officer, Scientific Assistant.",
+  CompanyDetails: {
+      CompanyName:"Probationary Officer" ,
+      AdvtNo: "03/2021",
+      VacancyName:"Office Asst, Office Attendant, Watchman cum Gardener ",
+  },
+  Category: "Bank Jobs",
+  ImportantDates: {
+    DatesInfo: [
+  "Last Date for submission of online application: 20.09.2021 up to 5:00 PM",
+  "Last Date for Receipt of the hard copy of online application: 30.09.2021 up to 5:30 PM"
+      ]
+  },
+  AgeLimit: {
+    LimitData: [
+  "Minimum Age Limit: 32 years",
+  "Upper Age Limit: 37 Years",
+  "Age relaxation is admissible as per rules.",
+    ]
+  }, Qualification: "Any	Degree",
+},  
+ // <<<<<<<<<<>>>>>>>>>>>next item
+{
+  Title:"NIACL Administrative Officer 2021",
+  Postdate: "24-08-2021",
+ 
+  TotalVacancy:130,
+  BriefInformation: "New India Assurance Co. Ltd (NIACL) has announced notification for the recruitment of Administrative Officer (Generalist) (Scale-I) Vacancies. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the Notification & Apply Online.",
+  CompanyDetails: {
+      CompanyName:"New India Assurance Co. Ltd (NIACL)" ,
+      AdvtNo: "03/2021",
+      VacancyName:"	Administrative Officer Vacancy 2021 ",
+  },
+  Category: "Bank Jobs",
+  ImportantDates: {
+    DatesInfo: [
+  "Starting Date to Apply Online & Fee Payment: 01-09-2021",
+  "Closing Date to Apply Online & Fee Payment: 21-09-2021"
+      ]
+  },
+  AgeLimit: {
+    LimitData: [
+  "Minimum Age Limit: 32 years",
+  "Upper Age Limit: 37 Years",
+  "Age relaxation is admissible as per rules.",
+    ]
+  }, Qualification: "Candidates should possess Graduation/ Post Graduation in any discipline",
+},  
 ];
   
   module.exports = newsData;
