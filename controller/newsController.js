@@ -1,13 +1,16 @@
 const data = require("../models/dataSchema")
 
 
-const getAllnewsDatas = async (req, res) => {
+const getAllnewsDatas = async (req, res,next) => {
     try {
         
         // const newsDatas = await data.find({});
         const latestJobs = await data.find({ Category: "latest" });
         const centralJobs = await data.find({ Category: "central Jobs" });
-        res.render('index', { latestJobs,centralJobs });
+        res.render('index', { latestJobs, centralJobs });
+       
+      
+        
        
     }
     catch (err) {
@@ -16,6 +19,7 @@ const getAllnewsDatas = async (req, res) => {
    
 
 }
+
 // to get 
 const getJobDetailsById = async (req, res) => {
     try {

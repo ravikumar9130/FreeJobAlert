@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-const{ getAllnewsDatas, getJobDetailsById,getJobDetailsByCatagory} = require("../controller/newsController")
+const{ getAllnewsDatas, getJobDetailsById} = require("../controller/newsController")
 
 
 
@@ -8,9 +8,9 @@ const{ getAllnewsDatas, getJobDetailsById,getJobDetailsByCatagory} = require("..
 
 router.get('/', getAllnewsDatas);
 // all india jobs
-router.get('/central-jobs', function(req, res, next) {
+router.get('/central-jobs', function (req, res, next) {
   res.render('central-jobs');
-})
+} )
 // state jobs
 router.get('/state-jobs', function(req, res, next) {
   res.render('state-jobs');
