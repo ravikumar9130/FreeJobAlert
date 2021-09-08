@@ -13,7 +13,8 @@ const newsSchema = new mongoose.Schema({
         VacancyName:String,
     },
     ApplicationFee: {
-        fees:String
+        fees:[String],
+        paymentMode:String,
     },
     ImportantDates: {
         DatesInfo:[String]

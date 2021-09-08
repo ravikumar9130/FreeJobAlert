@@ -24,14 +24,9 @@
                 <div class="col-md-8 px-3 ">
                     <div class="card shadow">
                         <div class="alert text-center border " role="alert">
-                           
                             <h4> <%- news.CompanyDetails.CompanyName %></h4>
-
                             <p> <%- news.CompanyDetails.AdvtNo %></p>
-
                             <h5> <%- news.CompanyDetails.VacancyName %></h5>
-
-
                         </div>
                         <div class="alert " role="alert">
                      <b>    Name of the Post :</b>   <span class="text-dark px-3">
@@ -39,27 +34,22 @@
                     </span>
                         </div>
                         <div class="alert " role="alert">
-                           <b> Post Date :</b> <span class="text-dark  px-3"> 30-01-2019</span>
+                           <b> Post Date :</b> <span class="text-dark  px-3"><%- news.Postdate %></span>
                         </div>
                         <div class="alert " role="alert">
-                         <b>   Latest Update :</b><span class="text-dark px-3">23-08-2021</span>
+                         <b>   Latest Update :</b><span class="text-dark px-3"><%- news.Postdate %></span>
                         </div>
                         <div class="alert " role="alert">
-                          <b>  Total Vacancy :</b><span class="text-dark px-3"> 67</span>
+                          <b>  Total Vacancy :</b><span class="text-dark px-3"><%- news.TotalVacancy %></span>
                         </div>
                         <div class="alert " role="alert">
                             <h4 class="alert-heading">Brief Information :</h4>
                             <p> <%- news.BriefInformation %></p>
-
-
                         </div>
                         <li class="list-group-item">
                             <div class="alert text-center" role="alert">
                                 <h4 class="text-center">Qualification</h4>
-
                                 <%- news.Qualification %>
-
-
                             </div>
                         </li>
                     </div>
@@ -72,10 +62,13 @@
                                <b> Application Fee</b>
                             </div>
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item">For General/ Unreserved: Rs. 1000/-</li>
-                                <li class="list-group-item">For Other Backward Classes (OBC) – (NCL)/ Economically
-                                    Weaker Section (EWS): Rs. 500/-</li>
-                                <li class="list-group-item">For SC/ ST/ PwD/ Transgender: Rs. 250/-</li>
+                                <% if(news.ApplicationFee.fees.length != 0) {%>
+                                <% for(var i = 0; i < news.ApplicationFee.fees.length; i++) {%>
+                                <li class="list-group-item"><%- news.ApplicationFee.fees[i] %></li>
+                                <% } %>
+                                <% } else { %>
+                                    <li class="list-group-item">No Application fee</li>
+                                <% } %>
                             </ul>
                         </div>
                    
@@ -85,15 +78,9 @@
                               <b>  Important Dates</b>
                             </div>
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Starting Date to Apply Online: 15-02-2019</li>
-                                <li class="list-group-item">Closing Date to Apply Online: 14-03-2019 till 11:59 PM
-                                </li>
-                                <li class="list-group-item">Last Date for fee payment at any SBI Branch: 19-03-2019
-                                </li>
-                                <li class="list-group-item">Date of Written Exam: 14-04-2019 (Changed to July-2019)
-                                </li>
-                                <li class="list-group-item">New Dates for Written Exam: 20 to 31-12-2019</li>
-                                <li class="list-group-item">Date of Physical Test: 19 to 28-07-2021</li>
+                                <% for(var i = 0; i < news.ImportantDates.DatesInfo.length; i++) { %>
+                                    <li class="list-group-item"><%- news.ImportantDates.DatesInfo[i] %></li>
+                                <% } %>
                             </ul>
                         </div>
                   
@@ -103,11 +90,9 @@
                                <b> Age Limit (as on 01-01-2019) </b>
                             </div>
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Minimum Age: 21 Years</li>
-                                <li class="list-group-item">Maximum Age: 32 Years</li>
-                                <li class="list-group-item">Age relaxation is applicable for SC/ ST/ SEBC/ PH
-                                    candidates as per rules</li>
-
+                                <% for(var i = 0; i < news.AgeLimit.LimitData.length; i++) { %>
+                                    <li class="list-group-item"><%- news.AgeLimit.LimitData[i] %></li>
+                                <% } %>
                             </ul>
                         </div>
                                     

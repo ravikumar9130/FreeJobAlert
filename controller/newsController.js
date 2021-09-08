@@ -6,7 +6,8 @@ const getAllnewsDatas = async (req, res) => {
         
         // const newsDatas = await data.find({});
         const latestJobs = await data.find({ Category: "latest" });
-        res.render('index', { latestJobs });
+        const centralJobs = await data.find({ Category: "central Jobs" });
+        res.render('index', { latestJobs,centralJobs });
        
     }
     catch (err) {
