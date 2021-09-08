@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const newsSchema = new mongoose.Schema({
     Title: String,
     Postdate: String,
-    LatestUpdate: String,
+    
     TotalVacancy: String,
     BriefInformation: String,
     Category: String,

@@ -2,7 +2,7 @@ const newsData = [
   {
     Title:"NPCIL Trade Apprentice 2021",
     Postdate: "25-08-2021",
-    // LatestUpdate: String,
+    
     TotalVacancy: 107,
     BriefInformation: " Nuclear Power Corporation of India (NPCIL) has published notification for the recruitment of Trade Apprentice vacancy. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the Notification & Apply Online.",
     CompanyDetails: {
@@ -38,10 +38,12 @@ const newsData = [
     
    
 },
+
+  // <<<<<<<<<<>>>>>>>>>>>next item
   {
     Title:"South Indian Bank Probationary Officer 2021",
     Postdate: "25-08-2021",
-    // LatestUpdate: String,
+    
     TotalVacancy: 51,
     BriefInformation: " South Indian Bank has published notification for the recruitment of PO, Officer & Other vacancy. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the Notification & Apply Online.",
     CompanyDetails: {
@@ -75,11 +77,11 @@ const newsData = [
     }, Qualification: "Candidates should possess Any Degree",
     
    
-},
+}, // <<<<<<<<<<>>>>>>>>>>>next item
   {
     Title:"RRB NTPC 2021",
     Postdate: " 19-02-2019",
-    // LatestUpdate: String,
+    
     TotalVacancy:35280,
     BriefInformation: "Railway Recruitment Board (RRB) has advertised a notification for the recruitment of NTPC Graduate & Undergraduate vacancies. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the Notification & Apply Online.",
     CompanyDetails: {
@@ -114,11 +116,11 @@ const newsData = [
     }, Qualification: "Candidates should possess Any Degree",
     
    
-},
+}, // <<<<<<<<<<>>>>>>>>>>>next item
   {
     Title:"GATE Online Form 2021",
     Postdate: "14-08-2021",
-    // LatestUpdate: String,
+   
     TotalVacancy:35280,
     BriefInformation: "Indian Institute of Technology (IIT), Kharagpur has published notification for the Graduate Aptitude Test in Engineering (GATE) 2022. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the notification & apply Online.",
     CompanyDetails: {
@@ -153,12 +155,12 @@ const newsData = [
     }, Qualification: "Bachelors Degree in Engineering/ Technology/ Architecture/ Science/ Commerce/ Arts, MBBS, Master Degree (Arts/Science/Mathematics/Statistics/ Computer Applications)",
     
    
-},
+}, // <<<<<<<<<<>>>>>>>>>>>next item
 
   {
     Title:"Oil India Limited Various Vacancy 2021",
     Postdate: " 25-08-2021",
-    // LatestUpdate: String,
+    
     TotalVacancy:535,
     BriefInformation: "Oil India Limited has Published a Notification for the recruitment of Grade III (Electrician, Fitter, Mechanic Motor Vehicle, Machinist, Mechanic Diesel & Other Trade) vacancies. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the Notification & Apply Online.",
     CompanyDetails: {
@@ -193,12 +195,11 @@ const newsData = [
     }, Qualification: "Candidates should possess 10th Class, 10+2",
     
    
-},
+}, // <<<<<<<<<<>>>>>>>>>>>next item
   
   {
     Title:"Western Coalfields Ltd ITI Apprentice 2021",
     Postdate: " 31-08-2021",
-    // LatestUpdate: String,
     TotalVacancy: 965,
     BriefInformation: "Western Coalfields Ltd has published notification for the recruitment of ITI Apprentice vacancy. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the Notification & Apply Online.",
     CompanyDetails: {
@@ -227,11 +228,11 @@ const newsData = [
     }, Qualification: "Candidates should possess 10th Class, 10+2",
     
    
-},
+}, // <<<<<<<<<<>>>>>>>>>>>next item
 {
   Title:"UPSC CGS & Geologist Recruitment 2021",
   Postdate: "07-10-2020",
-  // LatestUpdate: String,
+  
   TotalVacancy: 40,
   BriefInformation: "Union Public Service Commission (UPSC) has given a notification for the recruitment of Combined Geo-Scientist Examination 2021. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the Notification & Apply Online",
   CompanyDetails: {
@@ -264,11 +265,11 @@ const newsData = [
       "For More information regarding Age please refer the notification."
       ]
   }, Qualification: "Candidates should possess 10th Class, 10+2",
-},
+}, // <<<<<<<<<<>>>>>>>>>>>next item
 {
   Title:"Oil India Limited Various Vacancy 2021",
   Postdate: " 25-08-2021",
-  // LatestUpdate: String,
+ 
   TotalVacancy:535,
   BriefInformation: "Oil India Limited has Published a Notification for the recruitment of Grade III (Electrician, Fitter, Mechanic Motor Vehicle, Machinist, Mechanic Diesel & Other Trade) vacancies. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the Notification & Apply Online.",
   CompanyDetails: {
@@ -302,11 +303,11 @@ const newsData = [
       ]
   }, Qualification: "Candidates should possess 10th Class, 10+2",
   
-},
+}, // <<<<<<<<<<>>>>>>>>>>>next item
 {
   Title:"Coal India Limited Management Trainee 2021",
   Postdate: "10-08-2021",
-  // LatestUpdate: String,
+  
   TotalVacancy:588,
   BriefInformation: "Coal India Limited has published a notification for the recruitment of Management Trainee vacancies. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the Notification & Apply Online.",
   CompanyDetails: {
@@ -334,11 +335,11 @@ const newsData = [
       ]
   }, Qualification: "Candidates who have passed BE/ B.Tech/ B.Sc (Engg.) are eligible",
   
-},
+}, // <<<<<<<<<<>>>>>>>>>>>next item
 {
   Title:"IMTECH Recruitment 2021",
   Postdate: "02-08-2021",
-  // LatestUpdate: String,
+ 
   TotalVacancy:10,
   BriefInformation: "Institute of Microbial Technology (IMTECH) has Published a Notification for the recruitment of Jr Secretariat Asst, Stenographer vacancies. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the Notification & Apply Online.",
   CompanyDetails: {
@@ -367,11 +368,11 @@ const newsData = [
     ]
   }, Qualification: "Candidates should possess 10+2/XII, Computer Knowledge",
   
-},
+}, // <<<<<<<<<<>>>>>>>>>>>next item
 {
   Title:"Coir Board Recruitment 2021",
   Postdate: "24-07-2021",
-  // LatestUpdate: String,
+  
   TotalVacancy:36,
   BriefInformation: "Coir Board, kochi has published a notification for the recruitment of Senior Scientific Officer, Scientific Assistant, Showroom Manager, Assistant & Other vacancies. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the Notification & Apply Online.",
   CompanyDetails: {
@@ -406,11 +407,11 @@ const newsData = [
     ]
   }, Qualification: "Candidates should possess Any Degree",
   
-},
+}, // <<<<<<<<<<>>>>>>>>>>>next item
 {
   Title:"IMTECH Recruitment 2021",
   Postdate: "02-08-2021",
-  // LatestUpdate: String,
+ 
   TotalVacancy:10,
   BriefInformation: "Institute of Microbial Technology (IMTECH) has Published a Notification for the recruitment of Jr Secretariat Asst, Stenographer vacancies. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the Notification & Apply Online.",
   CompanyDetails: {
@@ -439,11 +440,11 @@ const newsData = [
     ]
   }, Qualification: "Candidates should possess 10+2/XII, Computer Knowledge",
   
-},
+}, // <<<<<<<<<<>>>>>>>>>>>next item
 {
   Title:"CMERI - CENTRAL MECHANICAL ENGINEERING RESEARCH INSTITUTE Recruitment 2021",
   Postdate: "29-09-2021",
-  // LatestUpdate: String,
+ 
   TotalVacancy:15,
   BriefInformation: "CMERI - CENTRAL MECHANICAL ENGINEERING RESEARCH INSTITUTE has published a notification for the recruitment of Senior Scientific Officer, Scientific Assistant, Showroom Manager, Assistant & Other vacancies. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the Notification & Apply Online.",
   CompanyDetails: {
