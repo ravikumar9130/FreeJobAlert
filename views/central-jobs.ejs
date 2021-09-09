@@ -1,444 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <%- include('./partials/head.ejs'); %>
-        <title>Central Jobs</title>
-</head>
+    <title>Central Jobs</title>
+  </head>
 
-<body>
+  <body>
     <%- include('./partials/header.ejs'); %>
 
-        <div style="margin-bottom: 0px;" class="alert bg-dark text-light text-center" role="alert">
-            <h4>Latest All India Government Job Notifications </h4>
-        </div>
-        <!-- <div class="alert alert-light  text-center" role="alert">
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <b>
+    <div
+      style="margin-bottom: 0px"
+      class="alert bg-dark text-light text-center"
+      role="alert"
+    >
+      <h4>Latest All India Government Job Notifications</h4>
+    </div>
+
+    <div class="container-fluid bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 py-3">
+            <div class="h3 text-center">UPSC</div>
+
+            <ol class="list-group">
 
 
+                <% for(var i =0 ; i < bankJobs.length; i++){ %>
 
-                        <a class="nav-link active" aria-current="page" href="#upsc">UPSC</a></b>
-                </li>
-                <li class="nav-item"><b>
-                        <a class="nav-link" href="#SSC">SSC</a></b>
-                </li>
-                <li class="nav-item"><b>
-                        <a class="nav-link" href="#OAIE">Other All India</a></b>
-                </li>
-                <li class="nav-item"> <b>
-                        <a class="nav-link" href="#AIFJ">All India Fellow</a></b>
-                </li>
-            </ul>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="text-center">
-                        <h4 id="upsc" class=" text-warning p-2  fw-bold text-decoration-underline" >UPSC</h4>
-                    </div>
-                    
-                   
-                    <table class="b-r table   table-hover table-striped">
-                        <thead class="table-dark">
-                            <tr >
-                                <th scope="col">Post Date 	</th>
-                                <th scope="col">Exam / Post Name</th>
-                                <th scope="col">Qualification</th>
-                                
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                 	 	 		 	
-                                <th scope="row">14/08/2021</th>
-                                <td>Deputy Director – 151 Posts</td>
-                                <td>Any Degree</td>
-                               
-                            </tr>
-                            <tr>
-                                <th scope="row">14/08/2021</th>
-                                <td>Deputy Director – 151 Posts</td>
-                                <td>Any Degree</td>
-                               
-                            </tr>
-                            <tr>
-                                <th scope="row">14/08/2021</th>
-                                <td>Deputy Director – 151 Posts</td>
-                                <td>Any Degree</td>
-                                
-                            </tr>
-                            <tr>
-                                <th scope="row">14/08/2021</th>
-                                <td>Deputy Director – 151 Posts</td>
-                                <td>Any Degree</td>
-                                
-                            </tr>
-                            <tr>
-                                <th scope="row">14/08/2021</th>
-                                <td>Deputy Director – 151 Posts</td>
-                                <td>Any Degree</td>
-                                
-                            </tr>
-                            <tr>
-                                <th scope="row">14/08/2021</th>
-                                <td>Deputy Director – 151 Posts</td>
-                                <td>Any Degree</td>
-                                
-                            </tr>
-                            <tr>
-                                <th scope="row">14/08/2021</th>
-                                <td>Deputy Director – 151 Posts</td>
-                                <td>Any Degree</td>
-                                
-                            </tr>
-                           
-                           
-                        </tbody>
-                    </table>
+              <li
+                class="
+                  shadow
+                  my-3
+                  list-group-item
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-3
+                "
+              >
+                <div class="ms-4 col-md-5 fw-bold">
+                  <%- bankJobs[i].Title %>
                 </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="text-center">
-                        <h4 id="SSC" class=" text-primary p-2  fw-bold text-decoration-underline" >SSC</h4>
-                    </div>
-                    
-                   
-                    <table class="b-r table  table-hover table-striped">
-                        <thead class="table-primary">
-                            <tr>
-                                <th scope="col">Post Date 	</th>
-                                <th scope="col">Exam / Post Name</th>
-                                <th scope="col">Qualification</th>
-                               
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                 	 	 		 	
-                                <th scope="row">14/08/2021</th>
-                                <td>Deputy Director – 151 Posts</td>
-                                <td>Any Degree</td>
-                               
-                            </tr>
-                            <tr>
-                                <th scope="row">14/08/2021</th>
-                                <td>Deputy Director – 151 Posts</td>
-                                <td>Any Degree</td>
-                               
-                            </tr>
-                            <tr>
-                                <th scope="row">14/08/2021</th>
-                                <td>Deputy Director – 151 Posts</td>
-                                <td>Any Degree</td>
-                                
-                            </tr>
-                            <tr>
-                                <th scope="row">14/08/2021</th>
-                                <td>Deputy Director – 151 Posts</td>
-                                <td>Any Degree</td>
-                               
-                            </tr>
-                            <tr>
-                                <th scope="row">14/08/2021</th>
-                                <td>Deputy Director – 151 Posts</td>
-                                <td>Any Degree</td>
-                                
-                            </tr>
-                            <tr>
-                                <th scope="row">14/08/2021</th>
-                                <td>Deputy Director – 151 Posts</td>
-                                <td>Any Degree</td>
-                                
-                            </tr>
-                            <tr>
-                                <th scope="row">14/08/2021</th>
-                                <td>Deputy Director – 151 Posts</td>
-                                <td>Any Degree</td>
-                               
-                            </tr>
-                            <tr>
-                                <th scope="row">14/08/2021</th>
-                                <td>Deputy Director – 151 Posts</td>
-                                <td>Any Degree</td>
-                                
-                            </tr>
-                            <tr>
-                                <th scope="row">14/08/2021</th>
-                                <td>Deputy Director – 151 Posts</td>
-                                <td>Any Degree</td>
-                                
-                            </tr>
-                            <tr>
-                                <th scope="row">14/08/2021</th>
-                                <td>Deputy Director – 151 Posts</td>
-                                <td>Any Degree</td>
-                               
-                            </tr>
-                            <tr>
-                                <th scope="row">14/08/2021</th>
-                                <td>Deputy Director – 151 Posts</td>
-                                <td>Any Degree</td>
-                                
-                            </tr>
-                            <tr>
-                                <th scope="row">14/08/2021</th>
-                                <td>Deputy Director – 151 Posts</td>
-                                <td>Any Degree</td>
-                               
-                            </tr>
-                           
-                        </tbody>
-                    </table>
+                <div class="col-md-3">
+                  <small class="text-muted"><%- bankJobs[i].Postdate %></small>
                 </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="text-center">
-                        <h4 id="OAIE" class=" text-primary p-2  fw-bold text-decoration-underline" >Other All India Exam </h4>
-                    </div>
-                    
-                   
-                    <table class="b-r table  table-hover table-striped">
-                        <thead class="table-primary">
-                            <tr>
-                                <th scope="col">Post Date 	</th>
-                                <th scope="col">Exam / Post Name</th>
-                                <th scope="col">Qualification</th>
-                               
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                 	 	 		 	
-                                <th scope="row">14/08/2021</th>
-                                <td>Deputy Director – 151 Posts</td>
-                                <td>Any Degree</td>
-                               
-                            </tr>
-                            <tr>
-                                <th scope="row">14/08/2021</th>
-                                <td>Deputy Director – 151 Posts</td>
-                                <td>Any Degree</td>
-                               
-                            </tr>
-                            <tr>
-                                <th scope="row">14/08/2021</th>
-                                <td>Deputy Director – 151 Posts</td>
-                                <td>Any Degree</td>
-                               
-                            </tr>
-                            <tr>
-                                <th scope="row">14/08/2021</th>
-                                <td>Deputy Director – 151 Posts</td>
-                                <td>Any Degree</td>
-                                
-                            </tr>
-                            <tr>
-                                <th scope="row">14/08/2021</th>
-                                <td>Deputy Director – 151 Posts</td>
-                                <td>Any Degree</td>
-                               
-                            </tr>
-                            <tr>
-                                <th scope="row">14/08/2021</th>
-                                <td>Deputy Director – 151 Posts</td>
-                                <td>Any Degree</td>
-                               
-                            </tr>
-                            <tr>
-                                <th scope="row">14/08/2021</th>
-                                <td>Deputy Director – 151 Posts</td>
-                                <td>Any Degree</td>
-                                
-                            </tr>
-                            <tr>
-                                <th scope="row">14/08/2021</th>
-                                <td>Deputy Director – 151 Posts</td>
-                                <td>Any Degree</td>
-                               
-                            </tr>
-                            <tr>
-                                <th scope="row">14/08/2021</th>
-                                <td>Deputy Director – 151 Posts</td>
-                                <td>Any Degree</td>
-                               
-                            </tr>
-                            <tr>
-                                <th scope="row">14/08/2021</th>
-                                <td>Deputy Director – 151 Posts</td>
-                                <td>Any Degree</td>
-                                
-                            </tr>
-                            <tr>
-                                <th scope="row">14/08/2021</th>
-                                <td>Deputy Director – 151 Posts</td>
-                                <td>Any Degree</td>
-                               
-                            </tr>
-                            <tr>
-                                <th scope="row">14/08/2021</th>
-                                <td>Deputy Director – 151 Posts</td>
-                                <td>Any Degree</td>
-                               
-                            </tr>
-                           
-                        </tbody>
-                    </table>
+                <div class="col-md-2">
+                  <span class="badge bg-dark rounded-pill"><%- bankJobs[i].TotalVacancy %></span>
                 </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="text-center">
-                        <h4 id="AIFJ" class=" text-primary p-2  fw-bold text-decoration-underline" >
-                            All India Fellow Jobs </h4>
-                    </div>
-                    
-                   
-                    <table class="b-r table  table-hover table-striped">
-                        <thead class="table-primary"> 
-                            <tr>
-                                <th scope="col">Post Date 	</th>
-                                <th scope="col">Exam / Post Name</th>
-                                <th scope="col">Qualification</th>
-                               
-                            </tr>
-                        </thead>
-                        <tbody>
-                           
-                            <tr>
-                                <th scope="row">14/08/2021</th>
-                                <td>Deputy Director – 151 Posts</td>
-                                <td>Any Degree</td>
-                               
-                            </tr>
-                           
-                            <tr>
-                                <th scope="row">14/08/2021</th>
-                                <td>Deputy Director – 151 Posts</td>
-                                <td>Any Degree</td>
-                                
-                            </tr>
-                            <tr>
-                                <th scope="row">14/08/2021</th>
-                                <td>Deputy Director – 151 Posts</td>
-                                <td>Any Degree</td>
-                               
-                            </tr>
-                            <tr>
-                                <th scope="row">14/08/2021</th>
-                                <td>Deputy Director – 151 Posts</td>
-                                <td>Any Degree</td>
-                               
-                            </tr>
-                            <tr>
-                                <th scope="row">14/08/2021</th>
-                                <td>Deputy Director – 151 Posts</td>
-                                <td>Any Degree</td>
-                                
-                            </tr>
-                           
-                           
-                        </tbody>
-                    </table>
+                <div class="col-md-2">
+                  <a href="job-details/<%= bankJobs[i]. _id %>" class="btn btn-warning fw-bold"> view Details </a>
                 </div>
-            </div>
-        </div> -->
-
-        <div class="container-fluid bg-light">
-            <div class="container ">
-                <div class="row">
-                    <div class="col-12 py-3">
-                        <div class="h3 text-center">UPSC</div>
-
-
-                        <ol class="list-group ">
-
-                            
-
-                            
-                            
+              </li>
+              <% } %>
 
 
 
-                            <li
-                                class="shadow  my-3 list-group-item d-flex justify-content-between align-items-center  py-3">
-                                <div class="ms-4 col-md-5  fw-bold">
-                                    NPCIL Trade Apprentice 2021
-
-                                </div>
-                                <div class="col-md-3"> <small class="text-muted">25-08-2021</small></div>
-                                <div class="col-md-2">
-                                    <span class="badge bg-dark  rounded-pill"> 107</span>
-                                </div>
-                                <div class="col-md-2">
-                                    <a href="#" class="btn btn-warning fw-bold"> view Details </a>
-                                </div>
-
-
-                            </li>
-                            <li
-                                class="shadow  my-3 list-group-item d-flex justify-content-between align-items-center  py-3">
-                                <div class="ms-4 col-md-5  fw-bold">
-                                    NPCIL Trade Apprentice 2021
-
-                                </div>
-                                <div class="col-md-3"> <small class="text-muted">25-08-2021</small></div>
-                                <div class="col-md-2">
-                                    <span class="badge bg-dark  rounded-pill"> 107</span>
-                                </div>
-                                <div class="col-md-2">
-                                    <a href="#" class="btn btn-warning fw-bold"> view Details </a>
-                                </div>
-
-
-                            </li>
-                            <li
-                                class="shadow  my-3 list-group-item d-flex justify-content-between align-items-center  py-3">
-                                <div class="ms-4 col-md-5  fw-bold">
-                                    NPCIL Trade Apprentice 2021
-
-                                </div>
-                                <div class="col-md-3"> <small class="text-muted">25-08-2021</small></div>
-                                <div class="col-md-2">
-                                    <span class="badge bg-dark  rounded-pill"> 107</span>
-                                </div>
-                                <div class="col-md-2">
-                                    <a href="#" class="btn btn-warning fw-bold"> view Details </a>
-                                </div>
-
-
-                            </li>
-                            <li
-                                class="shadow  my-3 list-group-item d-flex justify-content-between align-items-center  py-3">
-                                <div class="ms-4 col-md-5  fw-bold">
-                                    NPCIL Trade Apprentice 2021
-
-                                </div>
-                                <div class="col-md-3"> <small class="text-muted">25-08-2021</small></div>
-                                <div class="col-md-2">
-                                    <span class="badge bg-dark  rounded-pill"> 107</span>
-                                </div>
-                                <div class="col-md-2">
-                                    <a href="#" class="btn btn-warning fw-bold"> view Details </a>
-                                </div>
-
-
-                            </li>
-
-
-                        </ol>
-                    </div>
+<!-- 
+              <li
+                class="
+                  shadow
+                  my-3
+                  list-group-item
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-3
+                "
+              >
+                <div class="ms-4 col-md-5 fw-bold">
+                  NPCIL Trade Apprentice 2021
                 </div>
-            </div>
+                <div class="col-md-3">
+                  <small class="text-muted">25-08-2021</small>
+                </div>
+                <div class="col-md-2">
+                  <span class="badge bg-dark rounded-pill"> 107</span>
+                </div>
+                <div class="col-md-2">
+                  <a href="#" class="btn btn-warning fw-bold"> view Details </a>
+                </div>
+              </li> -->
+
+            </ol>
+          </div>
         </div>
-</body>
+      </div>
+    </div>
+    <%- include('./partials/footer.ejs'); %>
+  </body>
+</html>

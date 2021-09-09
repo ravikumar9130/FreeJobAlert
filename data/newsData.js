@@ -505,6 +505,10 @@ const newsData = [
       CompanyName:"Bank of Maharashtra" ,
       AdvtNo: "03/2021",
       VacancyName:"Specialist Officer Vacancy 2021",
+  }, ApplicationFee: {
+    fees: ["For Others: Rs.500/-",
+      "For SC/ST/PWD/ Women/ Other Gender/ Ex-Serviceman/ CSIR Employees: Nil",
+    ]
   },
   Category: "Bank Jobs",
   ImportantDates: {
@@ -523,7 +527,8 @@ const newsData = [
   }, Qualification: "	Degree, PG Degree/ Diploma (Relevant Disciplines)",
 },  
  // <<<<<<<<<<>>>>>>>>>>>next item
-{
+
+ {
   Title:"South Indian Bank Ltd",
   Postdate: "01/09/2021",
  
@@ -540,7 +545,11 @@ const newsData = [
   "Last Date for submission of online application: 20.09.2021 up to 5:00 PM",
   "Last Date for Receipt of the hard copy of online application: 30.09.2021 up to 5:30 PM"
       ]
-  },
+   }, ApplicationFee: {
+     fees: ["For Others: Rs.500/-",
+       "For SC/ST/PWD/ Women/ Other Gender/ Ex-Serviceman/ CSIR Employees: Nil",
+     ]
+   },
   AgeLimit: {
     LimitData: [
   "Minimum Age Limit: 32 years",
@@ -551,15 +560,20 @@ const newsData = [
 },  
  // <<<<<<<<<<>>>>>>>>>>>next item
 {
-  Title:"Bank of India",
-  Postdate: "27/08/2021",
+    Title: "Bank of India",
+    Postdate: "27/08/2021",
  
-  TotalVacancy:3,
-  BriefInformation: "CMERI - CENTRAL MECHANICAL ENGINEERING RESEARCH INSTITUTE has published a notification for the recruitment of Senior Scientific Officer, Scientific Assistant.",
-  CompanyDetails: {
-      CompanyName:"Probationary Officer" ,
+    TotalVacancy: 32,
+    BriefInformation: "CMERI - CENTRAL MECHANICAL ENGINEERING RESEARCH INSTITUTE has published a notification for the recruitment of Senior Scientific Officer, Scientific Assistant.",
+    CompanyDetails: {
+      CompanyName: "Probationary Officer",
       AdvtNo: "03/2021",
-      VacancyName:"Office Asst, Office Attendant, Watchman cum Gardener ",
+      VacancyName: "Office Asst, Office Attendant, Watchman cum Gardener ",
+    },
+  ApplicationFee: {
+    fees: ["For Others: Rs.500/-",
+      "For SC/ST/PWD/ Women/ Other Gender/ Ex-Serviceman/ CSIR Employees: Nil",
+    ]
   },
   Category: "Bank Jobs",
   ImportantDates: {
