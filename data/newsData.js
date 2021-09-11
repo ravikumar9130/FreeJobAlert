@@ -442,7 +442,7 @@ const newsData = [
   
 }, // <<<<<<<<<<>>>>>>>>>>>next item
 {
-  Title:"CMERI - CENTRAL MECHANICAL ENGINEERING RESEARCH INSTITUTE Recruitment 2021",
+  Title:"CMERI - 2021",
   Postdate: "29-09-2021",
  
   TotalVacancy:15,
@@ -616,6 +616,330 @@ const newsData = [
   "Age relaxation is admissible as per rules.",
     ]
   }, Qualification: "Candidates should possess Graduation/ Post Graduation in any discipline",
+},  
+ // <<<<<<<<<<>>>>>>>>>>>next item ...
+{
+  Title:"	Swami Atmanand Govt Higher Sec. School",
+  Postdate: "08/09/2021",
+ 
+  TotalVacancy:10,
+  BriefInformation: "New India Assurance Co. Ltd (NIACL) has announced notification for the recruitment of Administrative Officer (Generalist) (Scale-I) Vacancies. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the Notification & Apply Online.",
+  CompanyDetails: {
+      CompanyName:"New India Assurance Co. Ltd (NIACL)" ,
+      AdvtNo: "03/2021",
+      VacancyName:"	Administrative Officer Vacancy 2021 ",
+  },
+  Category: "Teacher Jobs",
+  ImportantDates: {
+    DatesInfo: [
+  "Starting Date to Apply Online & Fee Payment: 01-09-2021",
+  "Closing Date to Apply Online & Fee Payment: 21-09-2021"
+      ]
+  },
+  AgeLimit: {
+    LimitData: [
+  "Minimum Age Limit: 32 years",
+  "Upper Age Limit: 37 Years",
+  "Age relaxation is admissible as per rules.",
+    ]
+  }, Qualification: "10+2, B.Ed/ DLED/ D.Ed",
+},  
+ // <<<<<<<<<<>>>>>>>>>>>next item ...
+{
+  Title:"Directorate of Education",
+  Postdate: "6/09/2021",
+ 
+  TotalVacancy:06,
+  BriefInformation: "New India Assurance Co. Ltd (NIACL) has announced notification for the recruitment of Administrative Officer (Generalist) (Scale-I) Vacancies. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the Notification & Apply Online.",
+  CompanyDetails: {
+      CompanyName:"New India Assurance Co. Ltd (NIACL)" ,
+      AdvtNo: "03/2021",
+      VacancyName:"	Administrative Officer Vacancy 2021 ",
+  },
+  Category: "Teacher Jobs",
+  ImportantDates: {
+    DatesInfo: [
+  "Starting Date to Apply Online & Fee Payment: 01-09-2021",
+  "Closing Date to Apply Online & Fee Payment: 21-09-2021"
+      ]
+  },
+  AgeLimit: {
+    LimitData: [
+  "Minimum Age Limit: 32 years",
+  "Upper Age Limit: 37 Years",
+  "Age relaxation is admissible as per rules.",
+    ]
+  }, Qualification: "PG/ B.A.Ed./ B.Sc.Ed",
+},  
+ // <<<<<<<<<<>>>>>>>>>>>next item ...
+{
+  Title:"Jawaharlal Nehru University",
+  Postdate: "27/08/2021",
+ 
+  TotalVacancy:10,
+  BriefInformation: "New India Assurance Co. Ltd (NIACL) has announced notification for the recruitment of Administrative Officer (Generalist) (Scale-I) Vacancies. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the Notification & Apply Online.",
+  CompanyDetails: {
+      CompanyName:"New India Assurance Co. Ltd (NIACL)" ,
+      AdvtNo: "03/2021",
+      VacancyName:"	Administrative Officer Vacancy 2021 ",
+  },
+  Category: "Teacher Jobs",
+  ImportantDates: {
+    DatesInfo: [
+  "Starting Date to Apply Online & Fee Payment: 01-09-2021",
+  "Closing Date to Apply Online & Fee Payment: 21-09-2021"
+      ]
+  },
+  AgeLimit: {
+    LimitData: [
+  "Minimum Age Limit: 32 years",
+  "Upper Age Limit: 37 Years",
+  "Age relaxation is admissible as per rules.",
+    ]
+  }, Qualification: "	BE/ B.Tech/ PG (Relevant Discipline)",
+},  
+ // <<<<<<<<<<>>>>>>>>>>>next item ...
+{
+  Title:"Directorate of Medical Education",
+  Postdate: "01/09/2021",
+ 
+  TotalVacancy:130,
+  BriefInformation: "New India Assurance Co. Ltd (NIACL) has announced notification for the recruitment of Administrative Officer (Generalist) (Scale-I) Vacancies. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the Notification & Apply Online.",
+  CompanyDetails: {
+      CompanyName:"New India Assurance Co. Ltd (NIACL)" ,
+      AdvtNo: "03/2021",
+      VacancyName:"	Administrative Officer Vacancy 2021 ",
+  },
+  Category: "Teacher Jobs",
+  ImportantDates: {
+    DatesInfo: [
+  "Starting Date to Apply Online & Fee Payment: 01-09-2021",
+  "Closing Date to Apply Online & Fee Payment: 21-09-2021"
+      ]
+  },
+  AgeLimit: {
+    LimitData: [
+  "Minimum Age Limit: 32 years",
+  "Upper Age Limit: 37 Years",
+  "Age relaxation is admissible as per rules.",
+    ]
+  }, Qualification: "PG, MD/ MS, M.Sc/ Ph.D/ D.Sc./ DRP",
+},  
+ // <<<<<<<<<<>>>>>>>>>>>next item ...
+{
+  Title:"	Kerala Agricultural University",
+  Postdate: "08/09/2021",
+ 
+  TotalVacancy:10,
+  BriefInformation: "New India Assurance Co. Ltd (NIACL) has announced notification for the recruitment of Administrative Officer (Generalist) (Scale-I) Vacancies. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the Notification & Apply Online.",
+  CompanyDetails: {
+      CompanyName:"New India Assurance Co. Ltd (NIACL)" ,
+      AdvtNo: "03/2021",
+      VacancyName:"	Administrative Officer Vacancy 2021 ",
+  },
+  Category: "Teacher Jobs",
+  ImportantDates: {
+    DatesInfo: [
+  "Starting Date to Apply Online & Fee Payment: 01-09-2021",
+  "Closing Date to Apply Online & Fee Payment: 21-09-2021"
+      ]
+  },
+  AgeLimit: {
+    LimitData: [
+  "Minimum Age Limit: 32 years",
+  "Upper Age Limit: 37 Years",
+  "Age relaxation is admissible as per rules.",
+    ]
+  }, Qualification: "Degree, PG, Ph.D (Relevant Discipline)",
+},  
+ // <<<<<<<<<<>>>>>>>>>>>next item ...
+{
+  Title:"	Asst Professor, Drug Inspector, Librarian",
+  Postdate: "21/08/2021",
+ 
+  TotalVacancy:113,
+  BriefInformation: "New India Assurance Co. Ltd (NIACL) has announced notification for the recruitment of Administrative Officer (Generalist) (Scale-I) Vacancies. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the Notification & Apply Online.",
+  CompanyDetails: {
+      CompanyName:"New India Assurance Co. Ltd (NIACL)" ,
+      AdvtNo: "03/2021",
+      VacancyName:"	Administrative Officer Vacancy 2021 ",
+  },
+  Category: "Teacher Jobs",
+  ImportantDates: {
+    DatesInfo: [
+  "Starting Date to Apply Online & Fee Payment: 01-09-2021",
+  "Closing Date to Apply Online & Fee Payment: 21-09-2021"
+      ]
+  },
+  AgeLimit: {
+    LimitData: [
+  "Minimum Age Limit: 32 years",
+  "Upper Age Limit: 37 Years",
+  "Age relaxation is admissible as per rules.",
+    ]
+  }, Qualification: "10+2, Degree, PG, Ph. D (Relevant Discipline)",
+},  
+ // <<<<<<<<<<>>>>>>>>>>>next item ...#
+{
+  Title:"	Jat Regimental Centre",
+  Postdate: "06/09/2021",
+ 
+  TotalVacancy:07,
+  BriefInformation: "New India Assurance Co. Ltd (NIACL) has announced notification for the recruitment of Administrative Officer (Generalist) (Scale-I) Vacancies. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the Notification & Apply Online.",
+  CompanyDetails: {
+      CompanyName:"New India Assurance Co. Ltd (NIACL)" ,
+      AdvtNo: "03/2021",
+      VacancyName:"	Administrative Officer Vacancy 2021 ",
+  },
+  Category: "Police Jobs",
+  ImportantDates: {
+    DatesInfo: [
+  "Starting Date to Apply Online & Fee Payment: 01-09-2021",
+  "Closing Date to Apply Online & Fee Payment: 21-09-2021"
+      ]
+  },
+  AgeLimit: {
+    LimitData: [
+  "Minimum Age Limit: 32 years",
+  "Upper Age Limit: 37 Years",
+  "Age relaxation is admissible as per rules.",
+    ]
+  }, Qualification: "	10th Class, ITI, Diploma",
+},  
+ // <<<<<<<<<<>>>>>>>>>>>next item ...
+{
+  Title:"	High Altitude Warfare School	",
+  Postdate: "28/08/2021",
+ 
+  TotalVacancy:08,
+  BriefInformation: "New India Assurance Co. Ltd (NIACL) has announced notification for the recruitment of Administrative Officer (Generalist) (Scale-I) Vacancies. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the Notification & Apply Online.",
+  CompanyDetails: {
+      CompanyName:"New India Assurance Co. Ltd (NIACL)" ,
+      AdvtNo: "03/2021",
+      VacancyName:"	Administrative Officer Vacancy 2021 ",
+  },
+  Category: "Police Jobs",
+  ImportantDates: {
+    DatesInfo: [
+  "Starting Date to Apply Online & Fee Payment: 01-09-2021",
+  "Closing Date to Apply Online & Fee Payment: 21-09-2021"
+      ]
+  },
+  AgeLimit: {
+    LimitData: [
+  "Minimum Age Limit: 32 years",
+  "Upper Age Limit: 37 Years",
+  "Age relaxation is admissible as per rules.",
+    ]
+  }, Qualification: "10+2, Degree, PG, Ph. D (Relevant Discipline)",
+},  
+ // <<<<<<<<<<>>>>>>>>>>>next item ...
+{
+  Title:"	Naval Ship Repair Yard",
+  Postdate: "21/08/2021",
+ 
+  TotalVacancy:230,
+  BriefInformation: "New India Assurance Co. Ltd (NIACL) has announced notification for the recruitment of Administrative Officer (Generalist) (Scale-I) Vacancies. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the Notification & Apply Online.",
+  CompanyDetails: {
+      CompanyName:"New India Assurance Co. Ltd (NIACL)" ,
+      AdvtNo: "03/2021",
+      VacancyName:"	Administrative Officer Vacancy 2021 ",
+  },
+  Category: "Police Jobs",
+  ImportantDates: {
+    DatesInfo: [
+  "Starting Date to Apply Online & Fee Payment: 01-09-2021",
+  "Closing Date to Apply Online & Fee Payment: 21-09-2021"
+      ]
+  },
+  AgeLimit: {
+    LimitData: [
+  "Minimum Age Limit: 32 years",
+  "Upper Age Limit: 37 Years",
+  "Age relaxation is admissible as per rules.",
+    ]
+  }, Qualification: "10+2, Degree, PG, Ph. D (Relevant Discipline)",
+},  
+ // <<<<<<<<<<>>>>>>>>>>>next item ...
+{
+  Title:"		HQ Coast Guard, Noida",
+  Postdate: "13/08/2021",
+ 
+  TotalVacancy:09,
+  BriefInformation: "New India Assurance Co. Ltd (NIACL) has announced notification for the recruitment of Administrative Officer (Generalist) (Scale-I) Vacancies. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the Notification & Apply Online.",
+  CompanyDetails: {
+      CompanyName:"New India Assurance Co. Ltd (NIACL)" ,
+      AdvtNo: "03/2021",
+      VacancyName:"	Administrative Officer Vacancy 2021 ",
+  },
+  Category: "Teacher Jobs",
+  ImportantDates: {
+    DatesInfo: [
+  "Starting Date to Apply Online & Fee Payment: 01-09-2021",
+  "Closing Date to Apply Online & Fee Payment: 21-09-2021"
+      ]
+  },
+  AgeLimit: {
+    LimitData: [
+  "Minimum Age Limit: 32 years",
+  "Upper Age Limit: 37 Years",
+  "Age relaxation is admissible as per rules.",
+    ]
+  }, Qualification: "Diploma (Electrical/ Mechanical/ Marine/ Electronics Engg)",
+},  
+ // <<<<<<<<<<>>>>>>>>>>>next item ...
+{
+  Title:"		Infantry School, Mhow",
+  Postdate: "07/08/2021",
+ 
+  TotalVacancy:77,
+  BriefInformation: "New India Assurance Co. Ltd (NIACL) has announced notification for the recruitment of Administrative Officer (Generalist) (Scale-I) Vacancies. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the Notification & Apply Online.",
+  CompanyDetails: {
+      CompanyName:"New India Assurance Co. Ltd (NIACL)" ,
+      AdvtNo: "03/2021",
+      VacancyName:"	Administrative Officer Vacancy 2021 ",
+  },
+  Category: "Police Jobs",
+  ImportantDates: {
+    DatesInfo: [
+  "Starting Date to Apply Online & Fee Payment: 01-09-2021",
+  "Closing Date to Apply Online & Fee Payment: 21-09-2021"
+      ]
+  },
+  AgeLimit: {
+    LimitData: [
+  "Minimum Age Limit: 32 years",
+  "Upper Age Limit: 37 Years",
+  "Age relaxation is admissible as per rules.",
+    ]
+  }, Qualification: "10th, 12th, ITI, Any Degree, Typing Speed",
+},  
+ // <<<<<<<<<<>>>>>>>>>>>next item ...
+{
+  Title:"	ASC Centre (South) Civil Motor Driver",
+  Postdate: "14/06/2021",
+ 
+  TotalVacancy:400,
+  BriefInformation: "New India Assurance Co. Ltd (NIACL) has announced notification for the recruitment of Administrative Officer (Generalist) (Scale-I) Vacancies. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the Notification & Apply Online.",
+  CompanyDetails: {
+      CompanyName:"New India Assurance Co. Ltd (NIACL)" ,
+      AdvtNo: "03/2021",
+      VacancyName:"	Administrative Officer Vacancy 2021 ",
+  },
+  Category: "Police Jobs",
+  ImportantDates: {
+    DatesInfo: [
+  "Starting Date to Apply Online & Fee Payment: 01-09-2021",
+  "Closing Date to Apply Online & Fee Payment: 21-09-2021"
+      ]
+  },
+  AgeLimit: {
+    LimitData: [
+  "Minimum Age Limit: 32 years",
+  "Upper Age Limit: 37 Years",
+  "Age relaxation is admissible as per rules.",
+    ]
+  }, Qualification: "10+2, Degree, PG, Ph. D (Relevant Discipline)",
 },  
 ];
   

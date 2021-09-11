@@ -1,5 +1,9 @@
 .b-r{
     border: 1px solid green;
 }
-
+@media only screen and (max-width: 600px) {
+    .hide{
+      display: none;
+    }
+  }
 

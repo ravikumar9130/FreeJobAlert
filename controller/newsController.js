@@ -24,8 +24,8 @@ const getBankData = async (req, res,next) => {
     try {
        
         const bankJobs = await data.find({ Category: "Bank Jobs" });
-        res.render('central-jobs', { bankJobs });
-        console.log(bankJobs)
+        res.render('bank-jobs', { bankJobs });
+       
       
        
     }
@@ -35,6 +35,8 @@ const getBankData = async (req, res,next) => {
    
 
 }
+
+
 
 // to get 
 const getJobDetailsById = async (req, res) => {
@@ -49,5 +51,25 @@ const getJobDetailsById = async (req, res) => {
 }
 
 
-module.exports = { getAllnewsDatas, getJobDetailsById , getBankData};
+const getCentralData = async (req, res,next) => {
+    const centralJobs = await data.find({ Category: "central Jobs" });
+     res.render('central-jobs', { centralJobs });
+     
+}
+
+
+const getTeacherData = async (req, res,next) => {
+    const TeacherJobs = await data.find({ Category: "Teacher Jobs" });
+     res.render('teaching-jobs', { TeacherJobs });
+     
+}
+
+const getPoliceData = async (req, res,next) => {
+    const PoliceJobs = await data.find({ Category: "Police Jobs" });
+     res.render('police-defence-jobs', { PoliceJobs });
+     
+}
+
+
+module.exports = { getAllnewsDatas, getJobDetailsById , getBankData,getCentralData,getTeacherData,getPoliceData};
 
