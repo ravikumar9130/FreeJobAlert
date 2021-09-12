@@ -38,14 +38,14 @@
                 py-3
               "
             >
-              <div class="ms-4 col-md-5 fw-bold">
+              <div class="ms-3 col-md-5 fw-bold">
                 <%- PoliceJobs[i].Title %>
               </div>
-              <div class="col-md-3">
-                <small class="text-muted"><%- PoliceJobs[i].Postdate %></small>
+              <div class="col-md-3 d-none d-sm-block">
+                <small class="text-muted "><%- PoliceJobs[i].Postdate %></small>
               </div>
-              <div class="col-md-2">
-                <span class="badge bg-dark rounded-pill"><%- PoliceJobs[i].TotalVacancy %></span>
+              <div class="col-md-2 d-none d-sm-block">
+                <span class="badge bg-dark  rounded-pill"><%- PoliceJobs[i].TotalVacancy %></span>
               </div>
               <div class="col-md-2">
                 <a href="job-details/<%= PoliceJobs[i]. _id %>" class="btn btn-warning fw-bold"> view Details </a>

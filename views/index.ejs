@@ -1,156 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <%- include('./partials/head.ejs'); %>
-  <title>Free Job Alert</title>
+    <title>Free Job Alert</title>
 </head>
+
 <body>
   <%- include('./partials/header.ejs'); %>
-  <section >
-    <div class="container-fluid bg-dark text-light text-center p-5">
-      <h1 class="display-3 fw-bold">FREE <span class="text-warning">JOB ALERT</span></h1>
-      <p class="h6 m-3">All Government Teaching Police and Bank job status at you fingertips...</p>
-      <a class="btn btn-primary fw-bold px-3 py-2 mt-3" href="#category" role="button">Browse Jobs </a>
-      
-    </div>
-  </section>
-  <div class="container-fluid bg-light">
-  <div class="container py-5">
-    <div class="row">
-      <div class="col-md-8 col-sm-12">
-        <h2 class="h2 mb-4">Job Notification</h2>
+    <section>
+      <div class="container-fluid bg-dark text-light text-center p-5">
+        <h1 class="display-3 fw-bold">FREE <span class="text-warning">JOB ALERT</span></h1>
+        <p class="h6 m-3">All Government Teaching Police and Bank job status at you fingertips...</p>
+        <a class="btn btn-primary fw-bold px-3 py-2 mt-3" href="#category" role="button">Browse Jobs </a>
+
+      </div>
+    </section>
+    <div class="container-fluid bg-light">
+      <div class="container py-5">
         <div class="row">
-          <div class="col-md-6 col-sm-12">
+          <div class="col-md-8 col-sm-12">
+            <h2 class="h2  mb-4 ">Job Notification</h2>
+            <div class="row">
+              <div class="col-md-6 col-sm-12">
+                <ul class="list-group">
+                  <% for(var i=0; i < latestJobs.length/2; i++) {%>
+                    <li class="list-group-item py-3"> <a class="text-dark" style="text-decoration: none;"
+                        href="job-details/<%= latestJobs[i]. _id %>">
+                        <%= latestJobs[i].Title %>
+                      </a>
+                    </li>
+                    <% } %>
+                </ul>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <ul class="list-group">
+                  <% for(var i=3; i < latestJobs.length; i++) {%>
+                    <li class="list-group-item py-3"> <a class="text-dark" style="text-decoration: none;"
+                        href="job-details/<%= latestJobs[i]. _id %>">
+                        <%= latestJobs[i].Title %>
+                      </a>
+                    </li>
+                    <% } %>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 col-12 p-3">
+            <div class="card shadow-sm p-3 bg-body rounded">
+              <div class="card-body ">
+                <h3 class="h3">Subscribe to newsletter</h3>
+                <p class="card-text text-muted">Get best Jobs on your Email.</p>
+                <form action="">
+                  <input type="email" class="form-control" name="subscription" aria-describedby="emailHelp"
+                    placeholder="Enter your email">
+                  <div class="d-flex justify-content-end"><button type="button"
+                      class="btn btn-primary text-light fw-bold mt-3 ">Submit</button></div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="container">
+        <h1 class="h2 text-center py-4" id="category">Job By Catagory</h1>
+        <div class="row">
+          <div class="col-md-6 col-sm-12 pb-4">
+            <div class="card">
+              <div class="card-header bg-dark text-light">
+                <h3 class="h3  text-center pt-2">Central Government Jobs</h3>
+              </div>
               <ul class="list-group">
-                <% for(var i = 0; i < latestJobs.length/2; i++) {%>
-                  <li class="list-group-item py-3"> <a class="text-dark" style="text-decoration: none;" href="job-details/<%= latestJobs[i]. _id %>"> <%= latestJobs[i].Title %></a>
-                   </li>
-              <% } %> 
+                <% for(var i=0; i < 5; i++) {%>
+                  <li class="list-group-item py-3"> <a class="text-dark" style="text-decoration: none;"
+                      href="job-details/<%= latestJobs[i]. _id %>">
+                      <%= centralJobs[i].Title %>
+                    </a>
+                  </li>
+                  <% } %>
+                  <li class="text-center list-group-item  py-3"><a class="fw-bold btn btn-warning" href="/central-jobs"> View More</a></li>
               </ul>
+            </div>
           </div>
-          <div class="col-md-6 col-sm-12">
+          <div class="col-md-6 col-sm-12 pb-4">
+            <div class="card">
+              <div class="card-header bg-dark text-light">
+                <h3 class="h3 text-center pt-2">State Government jobs</h3>
+              </div>
               <ul class="list-group">
-                <% for(var i = 3; i < latestJobs.length; i++) {%>
-                  <li class="list-group-item py-3"> <a class="text-dark" style="text-decoration: none;" href="job-details/<%= latestJobs[i]. _id %>"> <%= latestJobs[i].Title %></a>
-                   </li>
-              <% } %> 
+                <% for(var i=0; i < 5; i++) {%>
+                  <li class="list-group-item py-3"> <a class="text-dark" style="text-decoration: none;"
+                      href="job-details/<%= latestJobs[i]. _id %>">
+                      <%= latestJobs[i].Title %>
+                    </a>
+                  </li>
+                  <% } %>
+                  <li class="text-center list-group-item  py-3"><a class="fw-bold btn btn-warning" href="/central-jobs"> View More</a></li>
               </ul>
-          </div>
-        </div>
-        
-      </div>
-      <div class="col-md-4 col-12 p-3">
-        <div class="card shadow-sm p-3 bg-body rounded">
-          <div class="card-body ">
-            <h3 class="h3">Subscribe to newsletter</h3>
-            <p class="card-text text-muted">Get best Jobs on your Email.</p>
-            <form action="" >
-              <input type="email" class="form-control" name="subscription" aria-describedby="emailHelp" placeholder="Enter your email">
-              <div class="d-flex justify-content-end"><button type="button" class="btn btn-primary text-light fw-bold mt-3 ">Submit</button></div>
-            </form>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
-<div class="container-fluid">
-  <div class="container">
-    <h1 class="h2 text-center py-4" id="category">Job By Catagory</h1>
-    <div class="row">
-      <div class="col-md-6 col-sm-12 pb-4">
-        <div class="card">
-          <div class="card-header">
-            <h3 class="h3 text-center pt-2">Central Government Jobs</h3>
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-12 pb-4">
+            <div class="card">
+              <div class="card-header bg-dark text-light">
+                <h3 class="h3 text-center pt-2 ">Bank Jobs</h3>
+              </div>
+              <ul class="list-group">
+                <% for(var i=0; i < 5; i++) {%>
+                  <li class="list-group-item py-3"> <a class="text-dark" style="text-decoration: none;"
+                      href="job-details/<%= bankJobs[i]. _id %>">
+                      <%= bankJobs[i].Title %>
+                    </a>
+                  </li>
+                  <% } %>
+                  <li class="text-center list-group-item  py-3"><a class="fw-bold btn btn-warning" href="/central-jobs"> View More</a></li>
+              </ul>
+            </div>
           </div>
-          <ul class="list-group">
-            <% for(var i = 0; i < 5; i++) {%>
-              <li class="list-group-item py-3"> <a class="text-dark" style="text-decoration: none;" href="job-details/<%= latestJobs[i]. _id %>"> <%= centralJobs[i].Title %></a>
-               </li>
-          <% } %> 
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-6 col-sm-12 pb-4">
-        <div class="card">
-          <div class="card-header">
-            <h3 class="h3 text-center pt-2">State Government jobs</h3>
+          <div class="col-md-6 col-sm-12 pb-4">
+            <div class="card">
+              <div class="card-header bg-dark text-light">
+                <h3 class="h3 text-center pt-2 ">Teaching Jobs</h3>
+              </div>
+              <ul class="list-group">
+                <% for(var i=0; i < 5; i++) {%>
+                  <li class="list-group-item py-3"> <a class="text-dark" style="text-decoration: none;"
+                      href="job-details/<%= bankJobs[i]. _id %>">
+                      <%= bankJobs[i].Title %>
+                    </a>
+                  </li>
+                  <% } %>
+                  <li class="text-center list-group-item  py-3"><a class="fw-bold btn btn-warning" href="/central-jobs"> View More</a></li>
+              </ul>
+            </div>
           </div>
-          <ul class="list-group">
-            <% for(var i = 0; i < 5; i++) {%>
-              <li class="list-group-item py-3"> <a class="text-dark" style="text-decoration: none;" href="job-details/<%= latestJobs[i]. _id %>"> <%= latestJobs[i].Title %></a>
-               </li>
-          <% } %> 
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
- </div>
- <div class="container-fluid">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-sm-12 pb-4">
-        <div class="card">
-          <div class="card-header">
-            <h3 class="h3 text-center pt-2">Bank Jobs</h3>
-          </div>
-          <ul class="list-group">
-            <% for(var i = 0; i < 5; i++) {%>
-              <li class="list-group-item py-3"> <a class="text-dark" style="text-decoration: none;" href="job-details/<%= bankJobs[i]. _id %>"> <%= bankJobs[i].Title %></a>
-               </li>
-          <% } %> 
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-6 col-sm-12 pb-4">
-        <div class="card">
-          <div class="card-header">
-            <h3 class="h3 text-center pt-2">Teaching Jobs</h3>
-          </div>
-          <ul class="list-group">
-            <% for(var i = 0; i < 5; i++) {%>
-              <li class="list-group-item py-3"> <a class="text-dark" style="text-decoration: none;" href="job-details/<%= bankJobs[i]. _id %>"> <%= bankJobs[i].Title %></a>
-               </li>
-          <% } %> 
-          </ul>
         </div>
       </div>
     </div>
-  </div>
- </div>
- <div class="container-fluid">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-sm-12 pb-4">
-       <div class="card">
-          <div class="card-header">
-            <h3 class="h3 text-center pt-2">Railway Jobs</h3>
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-12 pb-4">
+            <div class="card">
+              <div class="card-header bg-dark text-light">
+                <h3 class="h3 text-center  pt-2">Railway Jobs</h3>
+              </div>
+              <ul class="list-group">
+                <% for(var i=0; i < 5; i++) {%>
+                  <li class="list-group-item py-3"> <a class="text-dark" style="text-decoration: none;"
+                      href="job-details/<%= latestJobs[i]. _id %>">
+                      <%= latestJobs[i].Title %>
+                    </a>
+                  </li>
+                  <% } %>
+              </ul>
+            </div>
           </div>
-          <ul class="list-group">
-            <% for(var i = 0; i < 5; i++) {%>
-              <li class="list-group-item py-3"> <a class="text-dark" style="text-decoration: none;" href="job-details/<%= latestJobs[i]. _id %>"> <%= latestJobs[i].Title %></a>
-               </li>
-          <% } %> 
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-6 col-sm-12 pb-4">
-        <div class="card">
-          <div class="card-header">
-            <h3 class="h3 text-center pt-2">Police Defence Jobs</h3>
+          <div class="col-md-6 col-sm-12 pb-4">
+            <div class="card">
+              <div class="card-header bg-dark text-light">
+                <h3 class="h3 text-center  pt-2">Police Defence Jobs</h3>
+              </div>
+              <ul class="list-group">
+                <% for(var i=0; i < 5; i++) {%>
+                  <li class="list-group-item py-3"> <a class="text-dark" style="text-decoration: none;"
+                      href="job-details/<%= latestJobs[i]. _id %>">
+                      <%= latestJobs[i].Title %>
+                    </a>
+                  </li>
+                  <% } %>
+                  <li class="text-center  list-group-item  py-3"><a class="fw-bold btn btn-warning" href="/central-jobs"> View More</a></li>
+              </ul>
+            </div>
           </div>
-          <ul class="list-group">
-            <% for(var i = 0; i < 5; i++) {%>
-              <li class="list-group-item py-3"> <a class="text-dark" style="text-decoration: none;" href="job-details/<%= latestJobs[i]. _id %>"> <%= latestJobs[i].Title %></a>
-               </li>
-          <% } %> 
-          </ul>
         </div>
       </div>
     </div>
-  </div>
- </div>
- <%- include('./partials/footer.ejs'); %>
+    <%- include('./partials/footer.ejs'); %>
 </body>
+
 </html>
