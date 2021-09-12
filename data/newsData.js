@@ -409,39 +409,6 @@ const newsData = [
   
 }, // <<<<<<<<<<>>>>>>>>>>>next item
 {
-  Title:"IMTECH Recruitment 2021",
-  Postdate: "02-08-2021",
- 
-  TotalVacancy:10,
-  BriefInformation: "Institute of Microbial Technology (IMTECH) has Published a Notification for the recruitment of Jr Secretariat Asst, Stenographer vacancies. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the Notification & Apply Online.",
-  CompanyDetails: {
-      CompanyName:"Institute of Microbial Technology (IMTECH)" ,
-      AdvtNo: "Advt No: 03/2021",
-      VacancyName:"Jr Secretariat Asst, Jr Stenographer Vacancy 2021",
-  },
-  Category: "central Jobs",
-  ApplicationFee: {
-    fees: ["For Others: Rs.500/-",
-    "For SC/ST/PWD/ Women/ Other Gender/ Ex-Serviceman/ CSIR Employees: Nil",
-    ],
-    paymentMode: "Online",
-},
-  ImportantDates: {
-    DatesInfo: [
-  "Starting Date for Apply Online: 02-08-2021",
-  "Last Date for Apply Online: 15-09-2021 at 17:00 Hrs"
-      ]
-  },
-  AgeLimit: {
-    LimitData: [
-  "For S.No 01: 28 Years",
-  "For S.No 2: 27 Years",
-  "Age relaxation is applicable as per rules."
-    ]
-  }, Qualification: "Candidates should possess 10+2/XII, Computer Knowledge",
-  
-}, // <<<<<<<<<<>>>>>>>>>>>next item
-{
   Title:"CMERI - 2021",
   Postdate: "29-09-2021",
  
@@ -941,6 +908,272 @@ const newsData = [
     ]
   }, Qualification: "10+2, Degree, PG, Ph. D (Relevant Discipline)",
 },  
+ // <<<<<<<<<<>>>>>>>>>>>next item ...
+ {
+  Title:"Technical Asst, Technician",
+  Postdate: "28/08/2021",
+ 
+  TotalVacancy:54,
+  BriefInformation: "Central Electro Chemical Research Institute is one of a chain of forty national laboratories under the aegis of the Council of Scientific and Industrial Research in New Delhi. Founded on 25 July 1948 at Karaikudi in Tamil Nadu, CECRI came into existence on the January 1953",
+  CompanyDetails: {
+      CompanyName:"Council Of Scientific And Industrial Research" ,
+      AdvtNo: "02/2021",
+      VacancyName:"Technical Asst, Technician",
+  },
+  Category: "State jobs",
+  ImportantDates: {
+    DatesInfo: [
+  "Starting Date to Apply Online & Fee Payment: 01-09-2021",
+  "Closing Date to Apply Online & Fee Payment: 	27-09-2021"
+      ]
+  },
+  AgeLimit: {
+    LimitData: [
+  "Minimum Age Limit: 30 years",
+  "Upper Age Limit: 42 Years",
+  "Age relaxation is admissible as per rules.",
+    ]
+  }, Qualification: "10th, ITI, Diploma (Engg), B.Sc (Relevant Disciplines)",
+},
+ // <<<<<<<<<<>>>>>>>>>>>next item ...
+ {
+  Title:"Principal/ Assistant Director",
+  Postdate: "26/08/2021",
+ 
+  TotalVacancy:6,
+  BriefInformation: "Tamil Nadu Public Service Commission Combined Civil Services Exam",
+  CompanyDetails: {
+      CompanyName:"TNPSC" ,
+      AdvtNo: "11/2021",
+      VacancyName:"Principal/ Assistant Director",
+  },
+  Category: "State jobs",
+  ImportantDates: {
+    DatesInfo: [
+  "Starting Date to Apply Online & Fee Payment: 26/08/2021",
+  "Closing Date to Apply Online & Fee Payment: 	24-09-2021"
+      ]
+  },
+  AgeLimit: {
+    LimitData: [
+  "Minimum Age Limit: 24 years",
+  "Upper Age Limit: 30 Years",
+  "Age relaxation is admissible as per rules.",
+    ]
+  }, Qualification: "Degree (Engineering/ Technology)",
+},
+// <<<<<<<<<<>>>>>>>>>>>next item ...
+{
+  Title:"Project Scientist – I, Project Scientific Asst, Project Technician Vacancy 2021",
+  Postdate: "20/08/2021",
+ 
+  TotalVacancy:6,
+  BriefInformation: "The National Institute of Ocean Technology was established in November 1993 as an autonomous society under the Ministry of Earth Sciences, Government of India. NIOT is managed by a Governing Council and the Director is the head of the Institute. The institute is based in Chennai.",
+  CompanyDetails: {
+      CompanyName:"NIOT - National Institute of Ocean Technology" ,
+      AdvtNo: "02/2021",
+      VacancyName:"Principal/ Assistant Director",
+  },
+  Category: "State jobs",
+  ImportantDates: {
+    DatesInfo: [
+  "Starting Date to Apply Online & Fee Payment: 20/08/2021",
+  "Closing Date to Apply Online & Fee Payment: 	13-09-2021"
+      ]
+  },
+  AgeLimit: {
+    LimitData: [
+  "Minimum Age Limit: 20 years",
+  "Upper Age Limit: 30 Years",
+  "Age relaxation is admissible as per rules.",
+    ]
+  }, Qualification: "10th Class, Diploma, Degree, PG, Ph,D (Relevant Discipline)",
+},
+// <<<<<<<<<<>>>>>>>>>>>next item ...
+{
+  Title:"	Manager, Senior Officer Vacancy 2021",
+  Postdate: "14/08/2021",
+ 
+  TotalVacancy:50,
+  BriefInformation: "The Tamil Nadu Industrial Investment Corporation Limited (TIIC) (Tamil: தமிழ்நாடு தொழில் முதலீட்டுக் கழகம்), Limited is an institution owned by the government of Tamil Nadu and is intended as a catalyst for the development of small, medium and large scale industries in Tamil Nadu. It was established in 1949.",
+  CompanyDetails: {
+      CompanyName:"Tamilnadu Industrial Investment Corporation Ltd" ,
+      AdvtNo: "02/2021",
+      VacancyName:"Manager, Senior Officer",
+  },
+  Category: "State jobs",
+  ImportantDates: {
+    DatesInfo: [
+  "Starting Date to Apply Online & Fee Payment: 14-08-2021",
+  "Closing Date to Apply Online & Fee Payment: 	14-09-2021"
+      ]
+  },
+  AgeLimit: {
+    LimitData: [
+  "Minimum Age Limit: 25 years",
+  "Upper Age Limit: 37 Years",
+  "Age relaxation is admissible as per rules.",
+    ]
+  }, Qualification: "B.E/ B.Tech, Degree (Law), PG, CA/ ICWA",
+},
+// <<<<<<<<<<>>>>>>>>>>>next item ...
+{
+  Title:"Law Clerk Vacancy 2021",
+  Postdate: "06/08/2021",
+ 
+  TotalVacancy:37,
+  BriefInformation: "Madras High Court",
+  CompanyDetails: {
+      CompanyName:"Madras High Court" ,
+      AdvtNo: "9/2021",
+      VacancyName:"Manager, Senior Officer",
+  },
+  Category: "State jobs",
+  ImportantDates: {
+    DatesInfo: [
+  "Starting Date to Apply Online & Fee Payment: 06/08/2021",
+  "Closing Date to Apply Online & Fee Payment: 	13-09-2021"
+      ]
+  },
+  AgeLimit: {
+    LimitData: [
+  "Minimum Age Limit: 23 years",
+  "Upper Age Limit: 40 Years",
+  "Age relaxation is admissible as per rules.",
+    ]
+  }, Qualification: "Degree (Law)",
+},
+// <<<<<<<<<<>>>>>>>>>>>next item ...
+{
+  Title:"South East Central Railway Trade Apprentice Recruitment 2021",
+  Postdate: "09-09-2021",
+ 
+  TotalVacancy:432,
+  BriefInformation: "South East Central Railway has published notification for the recruitment of Trade Apprentice under The Apprentice Act 1961 in Bilaspur Division of south East Central Railway. Those Candidates who are interested in the vacancy details & completed all eligibility criteria can read the Notification & Apply Online",
+  CompanyDetails: {
+      CompanyName:"South East Central Railway" ,
+      AdvtNo: "9/2021",
+      VacancyName:"Trade Apprentice",
+  },
+  Category: "State jobs",
+  ImportantDates: {
+    DatesInfo: [
+  "Starting Date for Apply Online: 11-09-2021",
+  "Last Date to Apply Online: 10-10-2021 till 23:59 Hrs"
+  ]
+  },
+  AgeLimit: {
+    LimitData: [
+  "Minimum Age Limit: 15 years",
+  "Upper Age Limit: 24 Years",
+  "Age relaxation is applicable to SC/ ST/ OBC/ PWD Candidates as per rules.",
+    ]
+  }, Qualification: "Candidates should Passed 10th Class examination under 10+2 system or its equivalent, ITI (Relevant Trades)",
+},
+// <<<<<<<<<<>>>>>>>>>>>next item ...
+{
+  Title:"Chief Project Manager, Additional General Manager & Other",
+  Postdate: "08/09/2021",
+ 
+  TotalVacancy:28,
+  BriefInformation: "Maharashtra Metro Rail Corporation Limited is 50:50 Joint Venture company of Government of India & Government of Maharashtra headquartered in Nagpur, India.",
+  CompanyDetails: {
+      CompanyName:"Maharashtra Metro Rail Corporation Limited" ,
+      AdvtNo: "9/2021",
+      VacancyName:"Chief Project Manager, Additional General Manager & Other",
+  },
+  Category: "railways jobs",
+  ImportantDates: {
+    DatesInfo: [
+  "Starting Date for Apply Online: 11-09-2021",
+  "Last Date to Apply Online: 28-09-2021"
+  ]
+  },
+  AgeLimit: {
+    LimitData: [
+  "Minimum Age Limit: 15 years",
+  "Upper Age Limit: 24 Years",
+  ]
+  }, Qualification: "BE/ B.Tech, MBA",
+},
+// <<<<<<<<<<>>>>>>>>>>>next item ...
+{
+  Title:"Sr Technical Asst (Civil), Jr Technical Asst (Civil)",
+  Postdate: "20/08/2021",
+ 
+  TotalVacancy:14,
+  BriefInformation: "Konkan Railway Corporation Limited is a Public sector undertakings headquartered at CBD Belapur in Navi Mumbai that operates Konkan Railway and also undertakes other railway-related projects. The railway route of KRCL covers the coastal districts of Maharashtra, Goa and Karnataka states of India",
+  CompanyDetails: {
+      CompanyName:"Konkan Railway Corporation Limited" ,
+      AdvtNo: "02/2021",
+      VacancyName:"Chief Project Manager, Additional General Manager & Other",
+  },
+  Category: "railways jobs",
+  ImportantDates: {
+    DatesInfo: [
+  "Starting Date for Apply Online: 20/08/2021",
+  "Last Date to Apply Online: 25-09-2021"
+  ]
+  },
+  AgeLimit: {
+    LimitData: [
+  "Minimum Age Limit: 15 years",
+  "Upper Age Limit: 24 Years"
+  ]
+  }, Qualification: "BE/ B.Tech (Civil Engg)",
+},
+// <<<<<<<<<<>>>>>>>>>>>next item ...
+{
+  Title:"DGM/ JGM/ AGM, Manager, Dy Manager, DGM & Asst Manager",
+  Postdate: "18/08/2021",
+ 
+  TotalVacancy:11,
+  BriefInformation: "The Chennai Metro is a rapid transit system serving the city of Chennai, Tamil Nadu, India. It is the fourth longest metro system in India after Delhi Metro, Hyderabad metro and Namma Metro. The system commenced service in 2015 after partially opening the first phase of the project",
+  CompanyDetails: {
+      CompanyName:"Chennai Metro Rail Limited" ,
+      AdvtNo: "08/2021",
+      VacancyName:"DGM/ JGM/ AGM, Manager, Dy Manager, DGM & Asst Manager",
+  },
+  Category: "railways jobs",
+  ImportantDates: {
+    DatesInfo: [
+  "Starting Date for Apply Online: 18/08/2021",
+  "Last Date to Apply Online: 10-09-2021"
+  ]
+  },
+  AgeLimit: {
+    LimitData: [
+  "Minimum Age Limit: 15 years",
+  "Upper Age Limit: 24 Years"
+  ]
+  }, Qualification: "BE/ B.Tech, PG (Relevant Discipline)",
+},
+// <<<<<<<<<<>>>>>>>>>>>next item ...
+{
+  Title:"Apprentice Vacancy 2021",
+  Postdate: "17/08/2021",
+ 
+  TotalVacancy:192,
+  BriefInformation: "Rail Wheel Factory, Yelehanka is a manufacturing unit of Indian Railways, producing wheels, axles and wheel sets of railroad wagons, coaches and locomotives for the use of Indian Railways and overseas customers is situated at Yelahanka, Bangalore in the Indian state of Karnataka",
+  CompanyDetails: {
+      CompanyName:"Rail Wheel Factory" ,
+      AdvtNo: "08/2021",
+      VacancyName:"Apprentice",
+  },
+  Category: "railways jobs",
+  ImportantDates: {
+    DatesInfo: [
+  "Starting Date for Apply Online: 17/08/2021",
+  "Last Date to Apply Online:	13-09-2021"
+  ]
+  },
+  AgeLimit: {
+    LimitData: [
+  "Minimum Age Limit: 15 years",
+  "Upper Age Limit: 24 Years"
+  ]
+  }, Qualification: "10th Class",
+},
 ];
   
   module.exports = newsData;
