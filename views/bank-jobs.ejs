@@ -38,16 +38,16 @@
                 py-3
               "
             >
-              <div class="ms-4 col-md-5 col-sm-3 fw-bold">
+              <div class="ms-3 col-md-5  fw-bold">
                 <%- bankJobs[i].Title %>
               </div>
               <div class="col-md-3">
-                <small class="text-muted hide"><%- bankJobs[i].Postdate %></small>
+                <small class="text-muted d-none d-sm-block "><%- bankJobs[i].Postdate %></small>
               </div>
-              <div class="col-md-2 hide">
-                <span class="badge bg-dark rounded-pill"><%- bankJobs[i].TotalVacancy %></span>
+              <div class="col-md-2 ">
+                <span class="badge d-none d-sm-block bg-dark rounded-pill"><%- bankJobs[i].TotalVacancy %></span>
               </div>
-              <div class="col-md-2">
+              <div class="col-md-2 ">
                 <a href="job-details/<%= bankJobs[i]. _id %>" class="btn btn-warning fw-bold"> view Details </a>
               </div>
             </li>
