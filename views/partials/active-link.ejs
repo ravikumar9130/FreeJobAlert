@@ -1,0 +1,9 @@
+<script type="text/javascript">
+    const currentloc = location.href;
+    const navLinks = document.getElementsByClassName('nav-link');
+    for (let i=0; i < navLinks.length; i++) {
+      if(navLinks[i].href === currentloc) {
+        navLinks[i].classList.add("active");
+      }
+    }
+</script>
