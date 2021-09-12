@@ -153,15 +153,16 @@
               <div class="card-header bg-dark text-light">
                 <h3 class="h3 text-center  pt-2">Railway Jobs</h3>
               </div>
+              <!-- Railway -->
               <ul class="list-group">
                 <% for(var i=0; i < 5; i++) {%>
                   <li class="list-group-item py-3"> <a class="text-dark" style="text-decoration: none;"
-                      href="job-details/<%= railwayJobs[i]._id %>">
-                      <%= railwayJobs[i].Title %>
+                      href="job-details/<%= RailwayJobs[i]._id %>">
+                      <%= RailwayJobs[i].Title %>
                     </a>
                   </li>
                   <% } %>
-                  <li class="text-center list-group-item  py-3"><a class="fw-bold btn btn-warning" href="/railway-jobs"> View More</a></li>
+                  <li class="text-center  list-group-item  py-3"><a class="fw-bold btn btn-warning" href="/railway-jobs"> View More</a></li>
               </ul>
             </div>
           </div>

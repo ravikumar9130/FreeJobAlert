@@ -1174,6 +1174,32 @@ const newsData = [
   ]
   }, Qualification: "10th Class",
 },
+// <<<<<<<<<<>>>>>>>>>>>next item ...
+{
+  Title:"Chennai Metro Rail Limited 2021",
+  Postdate: "27/08/2021",
+ 
+  TotalVacancy:102,
+  BriefInformation: "Rail Wheel Factory, Yelehanka is a manufacturing unit of Indian Railways, producing wheels, axles and wheel sets of railroad wagons, coaches and locomotives for the use of Indian Railways and overseas customers is situated at Yelahanka, Bangalore in the Indian state of Karnataka",
+  CompanyDetails: {
+      CompanyName:"Rail cycle Factory" ,
+      AdvtNo: "08/2021",
+      VacancyName:"Apprentice",
+  },
+  Category: "Railway jobs",
+  ImportantDates: {
+    DatesInfo: [
+  "Starting Date for Apply Online: 17/08/2021",
+  "Last Date to Apply Online:	13-09-2021"
+  ]
+  },
+  AgeLimit: {
+    LimitData: [
+  "Minimum Age Limit: 15 years",
+  "Upper Age Limit: 24 Years"
+  ]
+  }, Qualification: "10th Class",
+},
 ];
   
   module.exports = newsData;
