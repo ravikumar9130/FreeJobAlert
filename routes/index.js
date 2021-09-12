@@ -1,32 +1,24 @@
 var express = require('express');
 var router = express.Router();
-const{ getPoliceData,getTeacherData,getAllnewsDatas, getJobDetailsById,getBankData,getCentralData} = require("../controller/newsController")
+const{ getPoliceData,getTeacherData,getAllnewsDatas, getJobDetailsById,getBankData,getCentralData,getStateData,getRailwayData} = require("../controller/newsController")
 
 
 
-/* GET home page. */
-
+// Home page route
 router.get('/', getAllnewsDatas);
-// all india jobs
+// all india jobs route
 router.get('/central-jobs',getCentralData )
-// state jobs
-router.get('/state-jobs', function(req, res, next) {
-  res.render('state-jobs');
-})
-// bank jobs
+// state jobs route
+router.get('/state-jobs',getStateData)
+// bank jobs route
 router.get('/bank-jobs',getBankData);
-
-// teaching jobs
+// teaching jobs route
 router.get('/teaching-jobs',getTeacherData)
-// railway jobs
-router.get('/railway-jobs', function(req, res, next) {
-  res.render('railway-jobs');
-})
-// police-defence-jobs
+// railway jobs route
+router.get('/railway-jobs', getRailwayData)
+// police-defence-jobs route
 router.get('/police-defence-jobs',getPoliceData)
-// job-details
+// job-details route
 router.get('/job-details/:id', getJobDetailsById );
-
-
 
 module.exports = router;

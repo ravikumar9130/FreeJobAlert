@@ -69,7 +69,16 @@ const getPoliceData = async (req, res,next) => {
      res.render('police-defence-jobs', { PoliceJobs });
      
 }
+const getStateData = async (req, res,next) => {
+    const stateJobs = await data.find({ Category: "State jobs" });
+     res.render('state-jobs', { stateJobs });
+     
+}
+const getRailwayData = async (req, res,next) => {
+    const railwayJobs = await data.find({ Category: "Railway jobs" });
+     res.render('railway-jobs', { railwayJobs });
+     
+}
 
-
-module.exports = { getAllnewsDatas, getJobDetailsById , getBankData,getCentralData,getTeacherData,getPoliceData};
+module.exports = { getAllnewsDatas, getJobDetailsById , getBankData,getCentralData,getTeacherData,getPoliceData,getStateData,getRailwayData};
 

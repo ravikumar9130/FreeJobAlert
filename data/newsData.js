@@ -1082,7 +1082,7 @@ const newsData = [
       AdvtNo: "9/2021",
       VacancyName:"Chief Project Manager, Additional General Manager & Other",
   },
-  Category: "railways jobs",
+  Category: "Railway jobs",
   ImportantDates: {
     DatesInfo: [
   "Starting Date for Apply Online: 11-09-2021",
@@ -1108,7 +1108,7 @@ const newsData = [
       AdvtNo: "02/2021",
       VacancyName:"Chief Project Manager, Additional General Manager & Other",
   },
-  Category: "railways jobs",
+  Category: "Railway jobs",
   ImportantDates: {
     DatesInfo: [
   "Starting Date for Apply Online: 20/08/2021",
@@ -1134,7 +1134,7 @@ const newsData = [
       AdvtNo: "08/2021",
       VacancyName:"DGM/ JGM/ AGM, Manager, Dy Manager, DGM & Asst Manager",
   },
-  Category: "railways jobs",
+  Category: "Railway jobs",
   ImportantDates: {
     DatesInfo: [
   "Starting Date for Apply Online: 18/08/2021",
@@ -1160,7 +1160,7 @@ const newsData = [
       AdvtNo: "08/2021",
       VacancyName:"Apprentice",
   },
-  Category: "railways jobs",
+  Category: "Railway jobs",
   ImportantDates: {
     DatesInfo: [
   "Starting Date for Apply Online: 17/08/2021",
