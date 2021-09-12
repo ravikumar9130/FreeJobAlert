@@ -7,8 +7,12 @@ const getAllnewsDatas = async (req, res,next) => {
         // const newsDatas = await data.find({});
         const latestJobs = await data.find({ Category: "latest" });
         const centralJobs = await data.find({ Category: "central Jobs" });
+        const stateJobs = await data.find({ Category: "State jobs" });
         const bankJobs = await data.find({ Category: "Bank Jobs" });
-        res.render('index', { latestJobs, centralJobs ,bankJobs});
+        const TeacherJobs = await data.find({ Category: "Teacher Jobs" });
+        const railwayJobs = await data.find({ Category: "Railway jobs" });
+        const PoliceJobs = await data.find({ Category: "Police Jobs" });
+        res.render('index', { latestJobs,centralJobs,stateJobs ,bankJobs,TeacherJobs,railwayJobs,PoliceJobs});
       
        
     }
@@ -69,7 +73,16 @@ const getPoliceData = async (req, res,next) => {
      res.render('police-defence-jobs', { PoliceJobs });
      
 }
+const getStateData = async (req, res,next) => {
+    const stateJobs = await data.find({ Category: "State jobs" });
+     res.render('state-jobs', { stateJobs });
+     
+}
+const getRailwayData = async (req, res,next) => {
+    const railwayJobs = await data.find({ Category: "Railway jobs" });
+     res.render('railway-jobs', { railwayJobs });
+     
+}
 
-
-module.exports = { getAllnewsDatas, getJobDetailsById , getBankData,getCentralData,getTeacherData,getPoliceData};
+module.exports = { getAllnewsDatas, getJobDetailsById , getBankData,getCentralData,getTeacherData,getPoliceData,getStateData,getRailwayData};
 
